@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/tinyrenderer.dir/main.cpp.obj"
   "CMakeFiles/tinyrenderer.dir/main.cpp.obj.d"
+  "CMakeFiles/tinyrenderer.dir/model.cpp.obj"
+  "CMakeFiles/tinyrenderer.dir/model.cpp.obj.d"
   "CMakeFiles/tinyrenderer.dir/tgaimage.cpp.obj"
   "CMakeFiles/tinyrenderer.dir/tgaimage.cpp.obj.d"
   "libtinyrenderer.dll.a"

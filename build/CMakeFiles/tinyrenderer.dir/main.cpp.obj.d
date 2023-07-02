@@ -1,52 +1,22 @@
 CMakeFiles/tinyrenderer.dir/main.cpp.obj: \
  D:\whj\data\GitFiles\TinyRendererLearning\main.cpp \
- D:\whj\data\GitFiles\TinyRendererLearning\tgaimage.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\cstdint \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\vector \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\stl_algobase.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\x86_64-w64-mingw32\bits\c++config.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\x86_64-w64-mingw32\bits\os_defines.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\x86_64-w64-mingw32\bits\cpu_defines.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\pstl\pstl_config.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\stdint.h \
- d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\stdint.h \
- d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\crtdefs.h \
- d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\corecrt.h \
- d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\_mingw.h \
- d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\_mingw_mac.h \
- d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\_mingw_secapi.h \
- d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\vadefs.h \
- d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\sdks/_mingw_ddk.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\stddef.h \
- d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\stddef.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\fstream \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\istream \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\ios \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\iosfwd \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\stringfwd.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\memoryfwd.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\postypes.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\cwchar \
- d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\wchar.h \
- d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\corecrt_stdio_config.h \
- d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\corecrt_wstdlib.h \
- d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\_mingw_off_t.h \
- d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\_mingw_stat64.h \
- d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\swprintf.inl \
- d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\sec_api\wchar_s.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\exception \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\exception.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\exception_ptr.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\functexcept.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\exception_defines.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\cxxabi_init_exception.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\typeinfo \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\hash_bytes.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\new \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\move.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\cpp_type_traits.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\ext\type_traits.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\ext\numeric_traits.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\stl_pair.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\type_traits \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\nested_exception.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\char_traits.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\move.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\utility.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\compare \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\concepts \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\stl_construct.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\stl_iterator_base_types.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\iterator_concepts.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\ptr_traits.h \
@@ -54,6 +24,89 @@ CMakeFiles/tinyrenderer.dir/main.cpp.obj: \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\stl_iterator_base_funcs.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\concept_check.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\debug\assertions.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\stl_iterator.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\new \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\exception.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\stl_construct.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\debug\debug.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\predefined_ops.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\allocator.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\x86_64-w64-mingw32\bits\c++allocator.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\new_allocator.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\memoryfwd.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\stl_uninitialized.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\ext\alloc_traits.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\alloc_traits.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\stl_vector.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\initializer_list \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\stl_bvector.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\functional_hash.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\hash_bytes.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\refwrap.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\invoke.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\stl_function.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\backward\binders.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\range_access.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\vector.tcc \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\cmath \
+ d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\math.h \
+ d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\crtdefs.h \
+ d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\corecrt.h \
+ d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\_mingw.h \
+ d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\_mingw_mac.h \
+ d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\_mingw_secapi.h \
+ d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\vadefs.h \
+ d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\sdks/_mingw_ddk.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\std_abs.h \
+ d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\stdlib.h \
+ d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\corecrt_wstdlib.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include-fixed\limits.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include-fixed\syslimits.h \
+ d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\limits.h \
+ d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\sec_api\stdlib_s.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\stdlib.h \
+ d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\malloc.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\mm_malloc.h \
+ d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\errno.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\specfun.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\limits \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\tr1\gamma.tcc \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\tr1\special_function_util.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\tr1\bessel_function.tcc \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\tr1\beta_function.tcc \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\tr1\ell_integral.tcc \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\tr1\exp_integral.tcc \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\tr1\hypergeometric.tcc \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\tr1\legendre_function.tcc \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\tr1\modified_bessel_func.tcc \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\tr1\poly_hermite.tcc \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\tr1\poly_laguerre.tcc \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\tr1\riemann_zeta.tcc \
+ D:\whj\data\GitFiles\TinyRendererLearning\tgaimage.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\cstdint \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\stdint.h \
+ d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\stdint.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\stddef.h \
+ d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\stddef.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\fstream \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\istream \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\ios \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\iosfwd \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\stringfwd.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\postypes.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\cwchar \
+ d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\wchar.h \
+ d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\corecrt_stdio_config.h \
+ d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\_mingw_off_t.h \
+ d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\_mingw_stat64.h \
+ d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\swprintf.inl \
+ d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\sec_api\wchar_s.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\exception \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\exception_ptr.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\cxxabi_init_exception.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\typeinfo \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\nested_exception.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\char_traits.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\localefwd.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\x86_64-w64-mingw32\bits\c++locale.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\clocale \
@@ -67,13 +120,9 @@ CMakeFiles/tinyrenderer.dir/main.cpp.obj: \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\x86_64-w64-mingw32\bits\gthr.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\x86_64-w64-mingw32\bits\gthr-default.h \
  d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\pthread.h \
- d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\errno.h \
  d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\sys\types.h \
  d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\process.h \
  d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\corecrt_startup.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include-fixed\limits.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include-fixed\syslimits.h \
- d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\limits.h \
  d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\signal.h \
  d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\pthread_signal.h \
  d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\time.h \
@@ -86,44 +135,16 @@ CMakeFiles/tinyrenderer.dir/main.cpp.obj: \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\x86_64-w64-mingw32\bits\atomic_word.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\locale_classes.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\string \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\allocator.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\x86_64-w64-mingw32\bits\c++allocator.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\new_allocator.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\functexcept.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\cpp_type_traits.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\ostream_insert.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\cxxabi_forced.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\stl_iterator.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\ext\type_traits.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\stl_function.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\backward\binders.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\ext\numeric_traits.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\stl_algobase.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\stl_pair.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\utility.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\debug\debug.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\predefined_ops.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\refwrap.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\invoke.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\range_access.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\initializer_list \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\basic_string.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\ext\alloc_traits.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\alloc_traits.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\string_view \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\functional_hash.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\ranges_base.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\max_size_type.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\numbers \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\string_view.tcc \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\ext\string_conversions.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\cstdlib \
- d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\stdlib.h \
- d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\sec_api\stdlib_s.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\stdlib.h \
- d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\malloc.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\mm_malloc.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\std_abs.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\cstdio \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\cerrno \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\charconv.h \
@@ -150,8 +171,6 @@ CMakeFiles/tinyrenderer.dir/main.cpp.obj: \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\x86_64-w64-mingw32\bits\basic_file.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\x86_64-w64-mingw32\bits\c++io.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\fstream.tcc \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\vector \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\stl_uninitialized.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\stl_vector.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\stl_bvector.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\vector.tcc
+ D:\whj\data\GitFiles\TinyRendererLearning\model.h \
+ D:\whj\data\GitFiles\TinyRendererLearning\geometry.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\iostream

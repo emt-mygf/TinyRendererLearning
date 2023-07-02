@@ -152,6 +152,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tinyrenderer.dir\build.make CMakeFiles/tinyrenderer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+model.obj: model.cpp.obj
+.PHONY : model.obj
+
+# target to build an object file
+model.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tinyrenderer.dir\build.make CMakeFiles/tinyrenderer.dir/model.cpp.obj
+.PHONY : model.cpp.obj
+
+model.i: model.cpp.i
+.PHONY : model.i
+
+# target to preprocess a source file
+model.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tinyrenderer.dir\build.make CMakeFiles/tinyrenderer.dir/model.cpp.i
+.PHONY : model.cpp.i
+
+model.s: model.cpp.s
+.PHONY : model.s
+
+# target to generate assembly for a file
+model.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tinyrenderer.dir\build.make CMakeFiles/tinyrenderer.dir/model.cpp.s
+.PHONY : model.cpp.s
+
 tgaimage.obj: tgaimage.cpp.obj
 .PHONY : tgaimage.obj
 
@@ -188,6 +212,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... model.obj
+	@echo ... model.i
+	@echo ... model.s
 	@echo ... tgaimage.obj
 	@echo ... tgaimage.i
 	@echo ... tgaimage.s

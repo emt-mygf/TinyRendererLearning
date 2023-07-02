@@ -3,6 +3,361 @@
 
 CMakeFiles/tinyrenderer.dir/main.cpp.obj
  D:/whj/data/GitFiles/TinyRendererLearning/main.cpp
+ D:/whj/data/GitFiles/TinyRendererLearning/geometry.h
+ D:/whj/data/GitFiles/TinyRendererLearning/model.h
+ D:/whj/data/GitFiles/TinyRendererLearning/tgaimage.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include-fixed/limits.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include-fixed/syslimits.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/backward/binders.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/alloc_traits.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/allocator.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/basic_ios.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/basic_ios.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/basic_string.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/basic_string.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/char_traits.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/charconv.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/codecvt.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/concept_check.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/cpp_type_traits.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/cxxabi_forced.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/cxxabi_init_exception.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/exception.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/exception_defines.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/exception_ptr.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/fstream.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/functexcept.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/functional_hash.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/hash_bytes.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/invoke.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/ios_base.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/istream.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/iterator_concepts.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/locale_classes.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/locale_classes.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/locale_facets.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/locale_facets.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/localefwd.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/max_size_type.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/memoryfwd.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/move.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/nested_exception.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/new_allocator.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/ostream.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/ostream_insert.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/postypes.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/predefined_ops.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/ptr_traits.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/range_access.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/ranges_base.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/ranges_cmp.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/refwrap.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/specfun.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/std_abs.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/stl_algobase.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/stl_bvector.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/stl_construct.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/stl_function.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/stl_iterator.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/stl_iterator_base_funcs.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/stl_iterator_base_types.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/stl_pair.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/stl_uninitialized.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/stl_vector.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/streambuf.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/streambuf_iterator.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/string_view.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/stringfwd.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/utility.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/vector.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/cctype
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/cerrno
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/clocale
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/cmath
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/compare
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/concepts
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/cstdint
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/cstdio
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/cstdlib
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/cwchar
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/cwctype
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/debug/assertions.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/debug/debug.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/exception
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/ext/alloc_traits.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/ext/atomicity.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/ext/numeric_traits.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/ext/string_conversions.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/ext/type_traits.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/fstream
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/initializer_list
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/ios
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/iosfwd
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/iostream
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/istream
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/limits
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/new
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/numbers
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/ostream
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/pstl/pstl_config.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/stdexcept
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/stdlib.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/streambuf
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/string
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/string_view
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/system_error
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/tr1/bessel_function.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/tr1/beta_function.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/tr1/ell_integral.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/tr1/exp_integral.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/tr1/gamma.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/tr1/hypergeometric.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/tr1/legendre_function.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/tr1/modified_bessel_func.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/tr1/poly_hermite.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/tr1/poly_laguerre.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/tr1/riemann_zeta.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/tr1/special_function_util.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/type_traits
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/typeinfo
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/vector
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/mm_malloc.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/stddef.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/stdint.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/_mingw.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/_mingw_mac.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/_mingw_off_t.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/_mingw_secapi.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/_mingw_stat64.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/_timeval.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/corecrt.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/corecrt_startup.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/corecrt_stdio_config.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/corecrt_wstdlib.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/crtdefs.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/ctype.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/errno.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/limits.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/locale.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/malloc.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/math.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/process.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/pthread.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/pthread_compat.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/pthread_signal.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/pthread_time.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/pthread_unistd.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/sec_api/stdio_s.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/sec_api/stdlib_s.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/sec_api/wchar_s.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/signal.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/stddef.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/stdint.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/stdio.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/stdlib.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/swprintf.inl
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/sys/timeb.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/sys/types.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/time.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/vadefs.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/wchar.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/wctype.h
+
+CMakeFiles/tinyrenderer.dir/model.cpp.obj
+ D:/whj/data/GitFiles/TinyRendererLearning/model.cpp
+ D:/whj/data/GitFiles/TinyRendererLearning/geometry.h
+ D:/whj/data/GitFiles/TinyRendererLearning/model.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include-fixed/limits.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include-fixed/syslimits.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/backward/binders.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/alloc_traits.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/allocator.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/basic_ios.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/basic_ios.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/basic_string.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/basic_string.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/char_traits.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/charconv.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/codecvt.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/concept_check.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/cpp_type_traits.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/cxxabi_forced.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/cxxabi_init_exception.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/exception.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/exception_defines.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/exception_ptr.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/fstream.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/functexcept.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/functional_hash.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/hash_bytes.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/invoke.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/ios_base.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/istream.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/iterator_concepts.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/locale_classes.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/locale_classes.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/locale_facets.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/locale_facets.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/localefwd.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/max_size_type.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/memoryfwd.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/move.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/nested_exception.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/new_allocator.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/ostream.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/ostream_insert.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/postypes.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/predefined_ops.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/ptr_traits.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/range_access.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/ranges_base.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/ranges_cmp.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/refwrap.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/specfun.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/sstream.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/std_abs.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/stl_algobase.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/stl_bvector.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/stl_construct.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/stl_function.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/stl_iterator.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/stl_iterator_base_funcs.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/stl_iterator_base_types.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/stl_pair.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/stl_uninitialized.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/stl_vector.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/streambuf.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/streambuf_iterator.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/string_view.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/stringfwd.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/utility.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/bits/vector.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/cctype
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/cerrno
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/clocale
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/cmath
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/compare
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/concepts
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/cstdint
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/cstdio
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/cstdlib
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/cwchar
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/cwctype
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/debug/assertions.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/debug/debug.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/exception
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/ext/alloc_traits.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/ext/atomicity.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/ext/numeric_traits.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/ext/string_conversions.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/ext/type_traits.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/fstream
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/initializer_list
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/ios
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/iosfwd
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/iostream
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/istream
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/limits
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/new
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/numbers
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/ostream
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/pstl/pstl_config.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/sstream
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/stdexcept
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/stdlib.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/streambuf
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/string
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/string_view
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/system_error
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/tr1/bessel_function.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/tr1/beta_function.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/tr1/ell_integral.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/tr1/exp_integral.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/tr1/gamma.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/tr1/hypergeometric.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/tr1/legendre_function.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/tr1/modified_bessel_func.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/tr1/poly_hermite.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/tr1/poly_laguerre.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/tr1/riemann_zeta.tcc
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/tr1/special_function_util.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/type_traits
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/typeinfo
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/vector
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/mm_malloc.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/stddef.h
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/stdint.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/_mingw.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/_mingw_mac.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/_mingw_off_t.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/_mingw_secapi.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/_mingw_stat64.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/_timeval.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/corecrt.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/corecrt_startup.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/corecrt_stdio_config.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/corecrt_wstdlib.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/crtdefs.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/ctype.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/errno.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/limits.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/locale.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/malloc.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/math.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/process.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/pthread.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/pthread_compat.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/pthread_signal.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/pthread_time.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/pthread_unistd.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/sec_api/stdio_s.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/sec_api/stdlib_s.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/sec_api/wchar_s.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/signal.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/stddef.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/stdint.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/stdio.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/stdlib.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/swprintf.inl
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/sys/timeb.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/sys/types.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/time.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/vadefs.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/wchar.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/wctype.h
+
+CMakeFiles/tinyrenderer.dir/tgaimage.cpp.obj
+ D:/whj/data/GitFiles/TinyRendererLearning/tgaimage.cpp
  D:/whj/data/GitFiles/TinyRendererLearning/tgaimage.h
  D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include-fixed/limits.h
  D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include-fixed/syslimits.h
@@ -75,6 +430,7 @@ CMakeFiles/tinyrenderer.dir/main.cpp.obj
  D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/cstdint
  D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/cstdio
  D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/cstdlib
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/cstring
  D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/cwchar
  D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/cwctype
  D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/debug/assertions.h
@@ -89,6 +445,7 @@ CMakeFiles/tinyrenderer.dir/main.cpp.obj
  D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/initializer_list
  D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/ios
  D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/iosfwd
+ D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/iostream
  D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/istream
  D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/new
  D:/whj/apps/tools/w64devkit/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/numbers
@@ -144,6 +501,7 @@ CMakeFiles/tinyrenderer.dir/main.cpp.obj
  D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h
  D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/sec_api/stdio_s.h
  D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/sec_api/stdlib_s.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/sec_api/string_s.h
  D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h
  D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/sec_api/wchar_s.h
  D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/signal.h
@@ -151,6 +509,7 @@ CMakeFiles/tinyrenderer.dir/main.cpp.obj
  D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/stdint.h
  D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/stdio.h
  D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/stdlib.h
+ D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/string.h
  D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/swprintf.inl
  D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/sys/timeb.h
  D:/whj/apps/tools/w64devkit/x86_64-w64-mingw32/include/sys/types.h

@@ -80,12 +80,12 @@ clean: CMakeFiles/tinyrenderer.dir/clean
 CMakeFiles/tinyrenderer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tinyrenderer.dir\build.make CMakeFiles/tinyrenderer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tinyrenderer.dir\build.make CMakeFiles/tinyrenderer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\whj\data\GitFiles\TinyRendererLearning\build\CMakeFiles --progress-num=1,2,3 "Built target tinyrenderer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\whj\data\GitFiles\TinyRendererLearning\build\CMakeFiles --progress-num=1,2,3,4 "Built target tinyrenderer"
 .PHONY : CMakeFiles/tinyrenderer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tinyrenderer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\whj\data\GitFiles\TinyRendererLearning\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\whj\data\GitFiles\TinyRendererLearning\build\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/tinyrenderer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\whj\data\GitFiles\TinyRendererLearning\build\CMakeFiles 0
 .PHONY : CMakeFiles/tinyrenderer.dir/rule

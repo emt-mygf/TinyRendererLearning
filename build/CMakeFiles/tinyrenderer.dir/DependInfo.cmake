@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/whj/data/GitFiles/TinyRendererLearning/main.cpp" "CMakeFiles/tinyrenderer.dir/main.cpp.obj" "gcc" "CMakeFiles/tinyrenderer.dir/main.cpp.obj.d"
+  "D:/whj/data/GitFiles/TinyRendererLearning/model.cpp" "CMakeFiles/tinyrenderer.dir/model.cpp.obj" "gcc" "CMakeFiles/tinyrenderer.dir/model.cpp.obj.d"
   "D:/whj/data/GitFiles/TinyRendererLearning/tgaimage.cpp" "CMakeFiles/tinyrenderer.dir/tgaimage.cpp.obj" "gcc" "CMakeFiles/tinyrenderer.dir/tgaimage.cpp.obj.d"
   )
 
