@@ -61,21 +61,21 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-m0uq9c"
-      binary: "D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-m0uq9c"
+      source: "D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-yg1wvl"
+      binary: "D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-yg1wvl"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-m0uq9c'
+        Change Dir: 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-yg1wvl'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/whj/apps/tools/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_57ef5/fast
-        make  -f CMakeFiles\\cmTC_57ef5.dir\\build.make CMakeFiles/cmTC_57ef5.dir/build
-        make[1]: Entering directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-m0uq9c'
-        Building C object CMakeFiles/cmTC_57ef5.dir/CMakeCCompilerABI.c.obj
-        D:\\whj\\apps\\tools\\w64devkit\\bin\\cc.exe   -v -o CMakeFiles\\cmTC_57ef5.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/whj/apps/tools/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_04222/fast
+        make  -f CMakeFiles\\cmTC_04222.dir\\build.make CMakeFiles/cmTC_04222.dir/build
+        make[1]: Entering directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-yg1wvl'
+        Building C object CMakeFiles/cmTC_04222.dir/CMakeCCompilerABI.c.obj
+        D:\\whj\\apps\\tools\\w64devkit\\bin\\cc.exe   -v -o CMakeFiles\\cmTC_04222.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
         Using built-in specs.
         COLLECT_GCC=cc
         Target: x86_64-w64-mingw32
@@ -83,8 +83,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 12.1.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_57ef5.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_57ef5.dir\\'
-         d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/cc1.exe -quiet -v -iprefix d:\\whj\\apps\\tools\\w64devkit\\bin\\../lib/gcc/x86_64-w64-mingw32/12.1.0/ -isysroot d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_57ef5.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\emili\\AppData\\Local\\Temp\\cc2wpNYz.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_04222.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_04222.dir\\'
+         d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/cc1.exe -quiet -v -iprefix d:\\whj\\apps\\tools\\w64devkit\\bin\\../lib/gcc/x86_64-w64-mingw32/12.1.0/ -isysroot d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_04222.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\emili\\AppData\\Local\\Temp\\ccqLxCpe.s
         GNU C17 (GCC) version 12.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 12.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -103,17 +103,17 @@ events:
         	compiled by GNU C version 12.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 4fcea45180a0886cc0b0a40050884bbb
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_57ef5.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_57ef5.dir\\'
-         as -v -o CMakeFiles\\cmTC_57ef5.dir\\CMakeCCompilerABI.c.obj C:\\Users\\emili\\AppData\\Local\\Temp\\cc2wpNYz.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_04222.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_04222.dir\\'
+         as -v -o CMakeFiles\\cmTC_04222.dir\\CMakeCCompilerABI.c.obj C:\\Users\\emili\\AppData\\Local\\Temp\\ccqLxCpe.s
         GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39
         COMPILER_PATH=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/;d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/
         LIBRARY_PATH=d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_57ef5.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_57ef5.dir\\CMakeCCompilerABI.c.'
-        Linking C executable cmTC_57ef5.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_57ef5.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_57ef5.dir/objects.a
-        D:\\whj\\apps\\tools\\w64devkit\\bin\\ar.exe qc CMakeFiles\\cmTC_57ef5.dir/objects.a @CMakeFiles\\cmTC_57ef5.dir\\objects1.rsp
-        D:\\whj\\apps\\tools\\w64devkit\\bin\\cc.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_57ef5.dir/objects.a -Wl,--no-whole-archive -o cmTC_57ef5.exe -Wl,--out-implib,libcmTC_57ef5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_04222.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_04222.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_04222.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_04222.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_04222.dir/objects.a
+        D:\\whj\\apps\\tools\\w64devkit\\bin\\ar.exe qc CMakeFiles\\cmTC_04222.dir/objects.a @CMakeFiles\\cmTC_04222.dir\\objects1.rsp
+        D:\\whj\\apps\\tools\\w64devkit\\bin\\cc.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_04222.dir/objects.a -Wl,--no-whole-archive -o cmTC_04222.exe -Wl,--out-implib,libcmTC_04222.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
         Using built-in specs.
         COLLECT_GCC=cc
         COLLECT_LTO_WRAPPER=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/lto-wrapper.exe
@@ -124,10 +124,10 @@ events:
         gcc version 12.1.0 (GCC) 
         COMPILER_PATH=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/;d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/
         LIBRARY_PATH=d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_57ef5.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_57ef5.'
-         d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/collect2.exe -plugin d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/liblto_plugin.dll -plugin-opt=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\emili\\AppData\\Local\\Temp\\ccQGX5kR.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_57ef5.exe d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0 -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../.. --whole-archive CMakeFiles\\cmTC_57ef5.dir/objects.a --no-whole-archive --out-implib libcmTC_57ef5.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtend.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_57ef5.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_57ef5.'
-        make[1]: Leaving directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-m0uq9c'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_04222.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_04222.'
+         d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/collect2.exe -plugin d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/liblto_plugin.dll -plugin-opt=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\emili\\AppData\\Local\\Temp\\ccU2VbRp.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_04222.exe d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0 -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../.. --whole-archive CMakeFiles\\cmTC_04222.dir/objects.a --no-whole-archive --out-implib libcmTC_04222.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_04222.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_04222.'
+        make[1]: Leaving directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-yg1wvl'
         
       exitCode: 0
   -
@@ -159,13 +159,13 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-m0uq9c']
+        ignore line: [Change Dir: 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-yg1wvl']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/whj/apps/tools/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_57ef5/fast]
-        ignore line: [make  -f CMakeFiles\\cmTC_57ef5.dir\\build.make CMakeFiles/cmTC_57ef5.dir/build]
-        ignore line: [make[1]: Entering directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-m0uq9c']
-        ignore line: [Building C object CMakeFiles/cmTC_57ef5.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [D:\\whj\\apps\\tools\\w64devkit\\bin\\cc.exe   -v -o CMakeFiles\\cmTC_57ef5.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/whj/apps/tools/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_04222/fast]
+        ignore line: [make  -f CMakeFiles\\cmTC_04222.dir\\build.make CMakeFiles/cmTC_04222.dir/build]
+        ignore line: [make[1]: Entering directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-yg1wvl']
+        ignore line: [Building C object CMakeFiles/cmTC_04222.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [D:\\whj\\apps\\tools\\w64devkit\\bin\\cc.exe   -v -o CMakeFiles\\cmTC_04222.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=cc]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -173,8 +173,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 12.1.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_57ef5.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_57ef5.dir\\']
-        ignore line: [ d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/cc1.exe -quiet -v -iprefix d:\\whj\\apps\\tools\\w64devkit\\bin\\../lib/gcc/x86_64-w64-mingw32/12.1.0/ -isysroot d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_57ef5.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\emili\\AppData\\Local\\Temp\\cc2wpNYz.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_04222.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_04222.dir\\']
+        ignore line: [ d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/cc1.exe -quiet -v -iprefix d:\\whj\\apps\\tools\\w64devkit\\bin\\../lib/gcc/x86_64-w64-mingw32/12.1.0/ -isysroot d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_04222.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\emili\\AppData\\Local\\Temp\\ccqLxCpe.s]
         ignore line: [GNU C17 (GCC) version 12.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 12.1.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -193,8 +193,8 @@ events:
         ignore line: [	compiled by GNU C version 12.1.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 4fcea45180a0886cc0b0a40050884bbb]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_57ef5.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_57ef5.dir\\']
-        ignore line: [ as -v -o CMakeFiles\\cmTC_57ef5.dir\\CMakeCCompilerABI.c.obj C:\\Users\\emili\\AppData\\Local\\Temp\\cc2wpNYz.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_04222.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_04222.dir\\']
+        ignore line: [ as -v -o CMakeFiles\\cmTC_04222.dir\\CMakeCCompilerABI.c.obj C:\\Users\\emili\\AppData\\Local\\Temp\\ccqLxCpe.s]
         ignore line: [GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39]
         ignore line: [COMPILER_PATH=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/]
         ignore line: [d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/]
@@ -204,12 +204,12 @@ events:
         ignore line: [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib/]
         ignore line: [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_57ef5.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_57ef5.dir\\CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_57ef5.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_57ef5.dir\\link.txt --verbose=1]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_57ef5.dir/objects.a]
-        ignore line: [D:\\whj\\apps\\tools\\w64devkit\\bin\\ar.exe qc CMakeFiles\\cmTC_57ef5.dir/objects.a @CMakeFiles\\cmTC_57ef5.dir\\objects1.rsp]
-        ignore line: [D:\\whj\\apps\\tools\\w64devkit\\bin\\cc.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_57ef5.dir/objects.a -Wl --no-whole-archive -o cmTC_57ef5.exe -Wl --out-implib libcmTC_57ef5.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_04222.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_04222.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_04222.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_04222.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_04222.dir/objects.a]
+        ignore line: [D:\\whj\\apps\\tools\\w64devkit\\bin\\ar.exe qc CMakeFiles\\cmTC_04222.dir/objects.a @CMakeFiles\\cmTC_04222.dir\\objects1.rsp]
+        ignore line: [D:\\whj\\apps\\tools\\w64devkit\\bin\\cc.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_04222.dir/objects.a -Wl --no-whole-archive -o cmTC_04222.exe -Wl --out-implib libcmTC_04222.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=cc]
         ignore line: [COLLECT_LTO_WRAPPER=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/lto-wrapper.exe]
@@ -226,13 +226,13 @@ events:
         ignore line: [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib/]
         ignore line: [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_57ef5.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_57ef5.']
-        link line: [ d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/collect2.exe -plugin d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/liblto_plugin.dll -plugin-opt=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\emili\\AppData\\Local\\Temp\\ccQGX5kR.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_57ef5.exe d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0 -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../.. --whole-archive CMakeFiles\\cmTC_57ef5.dir/objects.a --no-whole-archive --out-implib libcmTC_57ef5.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_04222.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_04222.']
+        link line: [ d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/collect2.exe -plugin d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/liblto_plugin.dll -plugin-opt=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\emili\\AppData\\Local\\Temp\\ccU2VbRp.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_04222.exe d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0 -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../.. --whole-archive CMakeFiles\\cmTC_04222.dir/objects.a --no-whole-archive --out-implib libcmTC_04222.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtend.o]
           arg [d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\emili\\AppData\\Local\\Temp\\ccQGX5kR.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\emili\\AppData\\Local\\Temp\\ccU2VbRp.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
@@ -255,7 +255,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_57ef5.exe] ==> ignore
+          arg [cmTC_04222.exe] ==> ignore
           arg [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o] ==> obj [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o]
           arg [-Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0] ==> dir [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0]
@@ -265,10 +265,10 @@ events:
           arg [-Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib]
           arg [-Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../..] ==> dir [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../..]
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_57ef5.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_04222.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_57ef5.dll.a] ==> ignore
+          arg [libcmTC_04222.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -317,21 +317,21 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-p4bpfm"
-      binary: "D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-p4bpfm"
+      source: "D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-li7f0u"
+      binary: "D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-li7f0u"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-p4bpfm'
+        Change Dir: 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-li7f0u'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/whj/apps/tools/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_170d7/fast
-        make  -f CMakeFiles\\cmTC_170d7.dir\\build.make CMakeFiles/cmTC_170d7.dir/build
-        make[1]: Entering directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-p4bpfm'
-        Building CXX object CMakeFiles/cmTC_170d7.dir/CMakeCXXCompilerABI.cpp.obj
-        D:\\whj\\apps\\tools\\w64devkit\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_170d7.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/whj/apps/tools/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_c29e0/fast
+        make  -f CMakeFiles\\cmTC_c29e0.dir\\build.make CMakeFiles/cmTC_c29e0.dir/build
+        make[1]: Entering directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-li7f0u'
+        Building CXX object CMakeFiles/cmTC_c29e0.dir/CMakeCXXCompilerABI.cpp.obj
+        D:\\whj\\apps\\tools\\w64devkit\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_c29e0.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=c++
         Target: x86_64-w64-mingw32
@@ -339,8 +339,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 12.1.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_170d7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_170d7.dir\\'
-         d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/cc1plus.exe -quiet -v -iprefix d:\\whj\\apps\\tools\\w64devkit\\bin\\../lib/gcc/x86_64-w64-mingw32/12.1.0/ -isysroot d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_170d7.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\emili\\AppData\\Local\\Temp\\cc3sWKZs.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c29e0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_c29e0.dir\\'
+         d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/cc1plus.exe -quiet -v -iprefix d:\\whj\\apps\\tools\\w64devkit\\bin\\../lib/gcc/x86_64-w64-mingw32/12.1.0/ -isysroot d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_c29e0.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\emili\\AppData\\Local\\Temp\\ccOd5V81.s
         GNU C++17 (GCC) version 12.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 12.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -365,17 +365,17 @@ events:
         	compiled by GNU C version 12.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 16de64ce6bf559d811fbee3051001acc
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_170d7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_170d7.dir\\'
-         as -v -o CMakeFiles\\cmTC_170d7.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\emili\\AppData\\Local\\Temp\\cc3sWKZs.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c29e0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_c29e0.dir\\'
+         as -v -o CMakeFiles\\cmTC_c29e0.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\emili\\AppData\\Local\\Temp\\ccOd5V81.s
         GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39
         COMPILER_PATH=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/;d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/
         LIBRARY_PATH=d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_170d7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_170d7.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_170d7.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_170d7.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_170d7.dir/objects.a
-        D:\\whj\\apps\\tools\\w64devkit\\bin\\ar.exe qc CMakeFiles\\cmTC_170d7.dir/objects.a @CMakeFiles\\cmTC_170d7.dir\\objects1.rsp
-        D:\\whj\\apps\\tools\\w64devkit\\bin\\c++.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_170d7.dir/objects.a -Wl,--no-whole-archive -o cmTC_170d7.exe -Wl,--out-implib,libcmTC_170d7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c29e0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_c29e0.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_c29e0.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_c29e0.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_c29e0.dir/objects.a
+        D:\\whj\\apps\\tools\\w64devkit\\bin\\ar.exe qc CMakeFiles\\cmTC_c29e0.dir/objects.a @CMakeFiles\\cmTC_c29e0.dir\\objects1.rsp
+        D:\\whj\\apps\\tools\\w64devkit\\bin\\c++.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_c29e0.dir/objects.a -Wl,--no-whole-archive -o cmTC_c29e0.exe -Wl,--out-implib,libcmTC_c29e0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
         Using built-in specs.
         COLLECT_GCC=c++
         COLLECT_LTO_WRAPPER=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/lto-wrapper.exe
@@ -386,10 +386,10 @@ events:
         gcc version 12.1.0 (GCC) 
         COMPILER_PATH=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/;d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/
         LIBRARY_PATH=d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_170d7.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_170d7.'
-         d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/collect2.exe -plugin d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/liblto_plugin.dll -plugin-opt=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\emili\\AppData\\Local\\Temp\\cc1zvRTI.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_170d7.exe d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0 -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../.. --whole-archive CMakeFiles\\cmTC_170d7.dir/objects.a --no-whole-archive --out-implib libcmTC_170d7.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtend.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_170d7.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_170d7.'
-        make[1]: Leaving directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-p4bpfm'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c29e0.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c29e0.'
+         d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/collect2.exe -plugin d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/liblto_plugin.dll -plugin-opt=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\emili\\AppData\\Local\\Temp\\cc6MmhNe.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_c29e0.exe d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0 -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../.. --whole-archive CMakeFiles\\cmTC_c29e0.dir/objects.a --no-whole-archive --out-implib libcmTC_c29e0.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c29e0.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c29e0.'
+        make[1]: Leaving directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-li7f0u'
         
       exitCode: 0
   -
@@ -427,13 +427,13 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-p4bpfm']
+        ignore line: [Change Dir: 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-li7f0u']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/whj/apps/tools/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_170d7/fast]
-        ignore line: [make  -f CMakeFiles\\cmTC_170d7.dir\\build.make CMakeFiles/cmTC_170d7.dir/build]
-        ignore line: [make[1]: Entering directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-p4bpfm']
-        ignore line: [Building CXX object CMakeFiles/cmTC_170d7.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [D:\\whj\\apps\\tools\\w64devkit\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_170d7.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/whj/apps/tools/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_c29e0/fast]
+        ignore line: [make  -f CMakeFiles\\cmTC_c29e0.dir\\build.make CMakeFiles/cmTC_c29e0.dir/build]
+        ignore line: [make[1]: Entering directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-li7f0u']
+        ignore line: [Building CXX object CMakeFiles/cmTC_c29e0.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [D:\\whj\\apps\\tools\\w64devkit\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_c29e0.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=c++]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -441,8 +441,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 12.1.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_170d7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_170d7.dir\\']
-        ignore line: [ d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/cc1plus.exe -quiet -v -iprefix d:\\whj\\apps\\tools\\w64devkit\\bin\\../lib/gcc/x86_64-w64-mingw32/12.1.0/ -isysroot d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_170d7.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\emili\\AppData\\Local\\Temp\\cc3sWKZs.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c29e0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_c29e0.dir\\']
+        ignore line: [ d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/cc1plus.exe -quiet -v -iprefix d:\\whj\\apps\\tools\\w64devkit\\bin\\../lib/gcc/x86_64-w64-mingw32/12.1.0/ -isysroot d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_c29e0.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\emili\\AppData\\Local\\Temp\\ccOd5V81.s]
         ignore line: [GNU C++17 (GCC) version 12.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 12.1.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -467,8 +467,8 @@ events:
         ignore line: [	compiled by GNU C version 12.1.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 16de64ce6bf559d811fbee3051001acc]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_170d7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_170d7.dir\\']
-        ignore line: [ as -v -o CMakeFiles\\cmTC_170d7.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\emili\\AppData\\Local\\Temp\\cc3sWKZs.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c29e0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_c29e0.dir\\']
+        ignore line: [ as -v -o CMakeFiles\\cmTC_c29e0.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\emili\\AppData\\Local\\Temp\\ccOd5V81.s]
         ignore line: [GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39]
         ignore line: [COMPILER_PATH=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/]
         ignore line: [d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/]
@@ -478,12 +478,12 @@ events:
         ignore line: [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib/]
         ignore line: [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_170d7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_170d7.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_170d7.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_170d7.dir\\link.txt --verbose=1]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_170d7.dir/objects.a]
-        ignore line: [D:\\whj\\apps\\tools\\w64devkit\\bin\\ar.exe qc CMakeFiles\\cmTC_170d7.dir/objects.a @CMakeFiles\\cmTC_170d7.dir\\objects1.rsp]
-        ignore line: [D:\\whj\\apps\\tools\\w64devkit\\bin\\c++.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_170d7.dir/objects.a -Wl --no-whole-archive -o cmTC_170d7.exe -Wl --out-implib libcmTC_170d7.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c29e0.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_c29e0.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_c29e0.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_c29e0.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_c29e0.dir/objects.a]
+        ignore line: [D:\\whj\\apps\\tools\\w64devkit\\bin\\ar.exe qc CMakeFiles\\cmTC_c29e0.dir/objects.a @CMakeFiles\\cmTC_c29e0.dir\\objects1.rsp]
+        ignore line: [D:\\whj\\apps\\tools\\w64devkit\\bin\\c++.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_c29e0.dir/objects.a -Wl --no-whole-archive -o cmTC_c29e0.exe -Wl --out-implib libcmTC_c29e0.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=c++]
         ignore line: [COLLECT_LTO_WRAPPER=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/lto-wrapper.exe]
@@ -500,13 +500,13 @@ events:
         ignore line: [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib/]
         ignore line: [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_170d7.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_170d7.']
-        link line: [ d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/collect2.exe -plugin d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/liblto_plugin.dll -plugin-opt=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\emili\\AppData\\Local\\Temp\\cc1zvRTI.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_170d7.exe d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0 -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../.. --whole-archive CMakeFiles\\cmTC_170d7.dir/objects.a --no-whole-archive --out-implib libcmTC_170d7.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c29e0.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c29e0.']
+        link line: [ d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/collect2.exe -plugin d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/liblto_plugin.dll -plugin-opt=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\emili\\AppData\\Local\\Temp\\cc6MmhNe.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_c29e0.exe d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0 -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../.. --whole-archive CMakeFiles\\cmTC_c29e0.dir/objects.a --no-whole-archive --out-implib libcmTC_c29e0.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtend.o]
           arg [d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\emili\\AppData\\Local\\Temp\\cc1zvRTI.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\emili\\AppData\\Local\\Temp\\cc6MmhNe.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
@@ -529,7 +529,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_170d7.exe] ==> ignore
+          arg [cmTC_c29e0.exe] ==> ignore
           arg [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o] ==> obj [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o]
           arg [-Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0] ==> dir [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0]
@@ -539,10 +539,10 @@ events:
           arg [-Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib]
           arg [-Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../..] ==> dir [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../..]
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_170d7.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_c29e0.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_170d7.dll.a] ==> ignore
+          arg [libcmTC_c29e0.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -591,21 +591,21 @@ events:
       - "CMakeLists.txt:7 (find_package)"
     description: "Detecting C OpenMP compiler info"
     directories:
-      source: "D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-s0g302"
-      binary: "D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-s0g302"
+      source: "D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-1cappe"
+      binary: "D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-1cappe"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
     buildResult:
       variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
       cached: true
       stdout: |
-        Change Dir: 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-s0g302'
+        Change Dir: 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-1cappe'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/whj/apps/tools/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_ce86f/fast
-        make  -f CMakeFiles\\cmTC_ce86f.dir\\build.make CMakeFiles/cmTC_ce86f.dir/build
-        make[1]: Entering directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-s0g302'
-        Building C object CMakeFiles/cmTC_ce86f.dir/OpenMPTryFlag.c.obj
-        D:\\whj\\apps\\tools\\w64devkit\\bin\\cc.exe   -fopenmp -v -o CMakeFiles\\cmTC_ce86f.dir\\OpenMPTryFlag.c.obj -c D:\\whj\\data\\GitFiles\\TinyRendererLearning\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s0g302\\OpenMPTryFlag.c
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/whj/apps/tools/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_b79cd/fast
+        make  -f CMakeFiles\\cmTC_b79cd.dir\\build.make CMakeFiles/cmTC_b79cd.dir/build
+        make[1]: Entering directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-1cappe'
+        Building C object CMakeFiles/cmTC_b79cd.dir/OpenMPTryFlag.c.obj
+        D:\\whj\\apps\\tools\\w64devkit\\bin\\cc.exe   -fopenmp -v -o CMakeFiles\\cmTC_b79cd.dir\\OpenMPTryFlag.c.obj -c D:\\whj\\data\\GitFiles\\TinyRendererLearning\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1cappe\\OpenMPTryFlag.c
         Using built-in specs.
         COLLECT_GCC=cc
         Target: x86_64-w64-mingw32
@@ -613,8 +613,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 12.1.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_ce86f.dir\\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\\cmTC_ce86f.dir\\'
-         d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/cc1.exe -quiet -v -iprefix d:\\whj\\apps\\tools\\w64devkit\\bin\\../lib/gcc/x86_64-w64-mingw32/12.1.0/ -isysroot d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -D_MT -D_REENTRANT -U_REENTRANT D:\\whj\\data\\GitFiles\\TinyRendererLearning\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s0g302\\OpenMPTryFlag.c -quiet -dumpdir CMakeFiles\\cmTC_ce86f.dir\\ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -mthreads -version -fopenmp -o C:\\Users\\emili\\AppData\\Local\\Temp\\ccj7Pmw9.s
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_b79cd.dir\\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\\cmTC_b79cd.dir\\'
+         d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/cc1.exe -quiet -v -iprefix d:\\whj\\apps\\tools\\w64devkit\\bin\\../lib/gcc/x86_64-w64-mingw32/12.1.0/ -isysroot d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -D_MT -D_REENTRANT -U_REENTRANT D:\\whj\\data\\GitFiles\\TinyRendererLearning\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1cappe\\OpenMPTryFlag.c -quiet -dumpdir CMakeFiles\\cmTC_b79cd.dir\\ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -mthreads -version -fopenmp -o C:\\Users\\emili\\AppData\\Local\\Temp\\cczRCTLy.s
         GNU C17 (GCC) version 12.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 12.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -633,17 +633,17 @@ events:
         	compiled by GNU C version 12.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 4fcea45180a0886cc0b0a40050884bbb
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_ce86f.dir\\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\\cmTC_ce86f.dir\\'
-         as -v -o CMakeFiles\\cmTC_ce86f.dir\\OpenMPTryFlag.c.obj C:\\Users\\emili\\AppData\\Local\\Temp\\ccj7Pmw9.s
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_b79cd.dir\\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\\cmTC_b79cd.dir\\'
+         as -v -o CMakeFiles\\cmTC_b79cd.dir\\OpenMPTryFlag.c.obj C:\\Users\\emili\\AppData\\Local\\Temp\\cczRCTLy.s
         GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39
         COMPILER_PATH=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/;d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/
         LIBRARY_PATH=d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_ce86f.dir\\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\\cmTC_ce86f.dir\\OpenMPTryFlag.c.'
-        Linking C executable cmTC_ce86f.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_ce86f.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_ce86f.dir/objects.a
-        D:\\whj\\apps\\tools\\w64devkit\\bin\\ar.exe qc CMakeFiles\\cmTC_ce86f.dir/objects.a @CMakeFiles\\cmTC_ce86f.dir\\objects1.rsp
-        D:\\whj\\apps\\tools\\w64devkit\\bin\\cc.exe  -fopenmp -v -Wl,--whole-archive CMakeFiles\\cmTC_ce86f.dir/objects.a -Wl,--no-whole-archive -o cmTC_ce86f.exe -Wl,--out-implib,libcmTC_ce86f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_ce86f.dir\\linkLibs.rsp
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_b79cd.dir\\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\\cmTC_b79cd.dir\\OpenMPTryFlag.c.'
+        Linking C executable cmTC_b79cd.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_b79cd.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_b79cd.dir/objects.a
+        D:\\whj\\apps\\tools\\w64devkit\\bin\\ar.exe qc CMakeFiles\\cmTC_b79cd.dir/objects.a @CMakeFiles\\cmTC_b79cd.dir\\objects1.rsp
+        D:\\whj\\apps\\tools\\w64devkit\\bin\\cc.exe  -fopenmp -v -Wl,--whole-archive CMakeFiles\\cmTC_b79cd.dir/objects.a -Wl,--no-whole-archive -o cmTC_b79cd.exe -Wl,--out-implib,libcmTC_b79cd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_b79cd.dir\\linkLibs.rsp
         Using built-in specs.
         COLLECT_GCC=cc
         COLLECT_LTO_WRAPPER=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/lto-wrapper.exe
@@ -655,10 +655,10 @@ events:
         COMPILER_PATH=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/;d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/
         LIBRARY_PATH=d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../
         Reading specs from d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/libgomp.spec
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_ce86f.exe' '-v' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_ce86f.'
-         d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/collect2.exe -plugin d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/liblto_plugin.dll -plugin-opt=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\emili\\AppData\\Local\\Temp\\ccmaud1c.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_ce86f.exe d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0 -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../.. @C:\\Users\\emili\\AppData\\Local\\Temp\\ccaAb7vj -lgomp -lmingwthrd -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingwthrd -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtend.o
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_ce86f.exe' '-v' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_ce86f.'
-        make[1]: Leaving directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-s0g302'
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_b79cd.exe' '-v' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_b79cd.'
+         d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/collect2.exe -plugin d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/liblto_plugin.dll -plugin-opt=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\emili\\AppData\\Local\\Temp\\ccVKB71J.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_b79cd.exe d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0 -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../.. @C:\\Users\\emili\\AppData\\Local\\Temp\\ccSp6UNj -lgomp -lmingwthrd -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingwthrd -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_b79cd.exe' '-v' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_b79cd.'
+        make[1]: Leaving directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-1cappe'
         
       exitCode: 0
   -
@@ -670,13 +670,13 @@ events:
     message: |
       Parsed C OpenMP implicit link information from above output:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-s0g302']
+        ignore line: [Change Dir: 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-1cappe']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/whj/apps/tools/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_ce86f/fast]
-        ignore line: [make  -f CMakeFiles\\cmTC_ce86f.dir\\build.make CMakeFiles/cmTC_ce86f.dir/build]
-        ignore line: [make[1]: Entering directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-s0g302']
-        ignore line: [Building C object CMakeFiles/cmTC_ce86f.dir/OpenMPTryFlag.c.obj]
-        ignore line: [D:\\whj\\apps\\tools\\w64devkit\\bin\\cc.exe   -fopenmp -v -o CMakeFiles\\cmTC_ce86f.dir\\OpenMPTryFlag.c.obj -c D:\\whj\\data\\GitFiles\\TinyRendererLearning\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s0g302\\OpenMPTryFlag.c]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/whj/apps/tools/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_b79cd/fast]
+        ignore line: [make  -f CMakeFiles\\cmTC_b79cd.dir\\build.make CMakeFiles/cmTC_b79cd.dir/build]
+        ignore line: [make[1]: Entering directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-1cappe']
+        ignore line: [Building C object CMakeFiles/cmTC_b79cd.dir/OpenMPTryFlag.c.obj]
+        ignore line: [D:\\whj\\apps\\tools\\w64devkit\\bin\\cc.exe   -fopenmp -v -o CMakeFiles\\cmTC_b79cd.dir\\OpenMPTryFlag.c.obj -c D:\\whj\\data\\GitFiles\\TinyRendererLearning\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1cappe\\OpenMPTryFlag.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=cc]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -684,8 +684,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 12.1.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_ce86f.dir\\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\\cmTC_ce86f.dir\\']
-        ignore line: [ d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/cc1.exe -quiet -v -iprefix d:\\whj\\apps\\tools\\w64devkit\\bin\\../lib/gcc/x86_64-w64-mingw32/12.1.0/ -isysroot d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -D_MT -D_REENTRANT -U_REENTRANT D:\\whj\\data\\GitFiles\\TinyRendererLearning\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s0g302\\OpenMPTryFlag.c -quiet -dumpdir CMakeFiles\\cmTC_ce86f.dir\\ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -mthreads -version -fopenmp -o C:\\Users\\emili\\AppData\\Local\\Temp\\ccj7Pmw9.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_b79cd.dir\\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\\cmTC_b79cd.dir\\']
+        ignore line: [ d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/cc1.exe -quiet -v -iprefix d:\\whj\\apps\\tools\\w64devkit\\bin\\../lib/gcc/x86_64-w64-mingw32/12.1.0/ -isysroot d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -D_MT -D_REENTRANT -U_REENTRANT D:\\whj\\data\\GitFiles\\TinyRendererLearning\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1cappe\\OpenMPTryFlag.c -quiet -dumpdir CMakeFiles\\cmTC_b79cd.dir\\ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -mthreads -version -fopenmp -o C:\\Users\\emili\\AppData\\Local\\Temp\\cczRCTLy.s]
         ignore line: [GNU C17 (GCC) version 12.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 12.1.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -704,8 +704,8 @@ events:
         ignore line: [	compiled by GNU C version 12.1.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 4fcea45180a0886cc0b0a40050884bbb]
-        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_ce86f.dir\\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\\cmTC_ce86f.dir\\']
-        ignore line: [ as -v -o CMakeFiles\\cmTC_ce86f.dir\\OpenMPTryFlag.c.obj C:\\Users\\emili\\AppData\\Local\\Temp\\ccj7Pmw9.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_b79cd.dir\\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\\cmTC_b79cd.dir\\']
+        ignore line: [ as -v -o CMakeFiles\\cmTC_b79cd.dir\\OpenMPTryFlag.c.obj C:\\Users\\emili\\AppData\\Local\\Temp\\cczRCTLy.s]
         ignore line: [GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39]
         ignore line: [COMPILER_PATH=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/]
         ignore line: [d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/]
@@ -715,12 +715,12 @@ events:
         ignore line: [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib/]
         ignore line: [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_ce86f.dir\\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\\cmTC_ce86f.dir\\OpenMPTryFlag.c.']
-        ignore line: [Linking C executable cmTC_ce86f.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_ce86f.dir\\link.txt --verbose=1]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_ce86f.dir/objects.a]
-        ignore line: [D:\\whj\\apps\\tools\\w64devkit\\bin\\ar.exe qc CMakeFiles\\cmTC_ce86f.dir/objects.a @CMakeFiles\\cmTC_ce86f.dir\\objects1.rsp]
-        ignore line: [D:\\whj\\apps\\tools\\w64devkit\\bin\\cc.exe  -fopenmp -v -Wl --whole-archive CMakeFiles\\cmTC_ce86f.dir/objects.a -Wl --no-whole-archive -o cmTC_ce86f.exe -Wl --out-implib libcmTC_ce86f.dll.a -Wl --major-image-version 0 --minor-image-version 0 @CMakeFiles\\cmTC_ce86f.dir\\linkLibs.rsp]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_b79cd.dir\\OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\\cmTC_b79cd.dir\\OpenMPTryFlag.c.']
+        ignore line: [Linking C executable cmTC_b79cd.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_b79cd.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_b79cd.dir/objects.a]
+        ignore line: [D:\\whj\\apps\\tools\\w64devkit\\bin\\ar.exe qc CMakeFiles\\cmTC_b79cd.dir/objects.a @CMakeFiles\\cmTC_b79cd.dir\\objects1.rsp]
+        ignore line: [D:\\whj\\apps\\tools\\w64devkit\\bin\\cc.exe  -fopenmp -v -Wl --whole-archive CMakeFiles\\cmTC_b79cd.dir/objects.a -Wl --no-whole-archive -o cmTC_b79cd.exe -Wl --out-implib libcmTC_b79cd.dll.a -Wl --major-image-version 0 --minor-image-version 0 @CMakeFiles\\cmTC_b79cd.dir\\linkLibs.rsp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=cc]
         ignore line: [COLLECT_LTO_WRAPPER=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/lto-wrapper.exe]
@@ -738,13 +738,13 @@ events:
         ignore line: [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../]
         ignore line: [Reading specs from d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/libgomp.spec]
-        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_ce86f.exe' '-v' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_ce86f.']
-        link line: [ d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/collect2.exe -plugin d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/liblto_plugin.dll -plugin-opt=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\emili\\AppData\\Local\\Temp\\ccmaud1c.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_ce86f.exe d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0 -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../.. @C:\\Users\\emili\\AppData\\Local\\Temp\\ccaAb7vj -lgomp -lmingwthrd -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingwthrd -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_b79cd.exe' '-v' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_b79cd.']
+        link line: [ d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/collect2.exe -plugin d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/liblto_plugin.dll -plugin-opt=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\emili\\AppData\\Local\\Temp\\ccVKB71J.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_b79cd.exe d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0 -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../.. @C:\\Users\\emili\\AppData\\Local\\Temp\\ccSp6UNj -lgomp -lmingwthrd -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingwthrd -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtend.o]
           arg [d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\emili\\AppData\\Local\\Temp\\ccmaud1c.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\emili\\AppData\\Local\\Temp\\ccVKB71J.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingwthrd] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -769,14 +769,14 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_ce86f.exe] ==> ignore
+          arg [cmTC_b79cd.exe] ==> ignore
           arg [-Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0] ==> dir [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0]
           arg [-Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc] ==> dir [d:/whj/apps/tools/w64devkit/bin/../lib/gcc]
           arg [-Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib]
           arg [-Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib] ==> dir [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib]
           arg [-Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib]
           arg [-Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../..] ==> dir [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../..]
-          arg [@C:\\Users\\emili\\AppData\\Local\\Temp\\ccaAb7vj] ==> ignore
+          arg [@C:\\Users\\emili\\AppData\\Local\\Temp\\ccSp6UNj] ==> ignore
           arg [-lgomp] ==> lib [gomp]
           arg [-lmingwthrd] ==> lib [mingwthrd]
           arg [-lmingw32] ==> lib [mingw32]
@@ -819,21 +819,21 @@ events:
       - "CMakeLists.txt:7 (find_package)"
     description: "Detecting CXX OpenMP compiler info"
     directories:
-      source: "D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-c0j1yu"
-      binary: "D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-c0j1yu"
+      source: "D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-ygovsh"
+      binary: "D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-ygovsh"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
     buildResult:
       variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
       cached: true
       stdout: |
-        Change Dir: 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-c0j1yu'
+        Change Dir: 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-ygovsh'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/whj/apps/tools/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_46f7b/fast
-        make  -f CMakeFiles\\cmTC_46f7b.dir\\build.make CMakeFiles/cmTC_46f7b.dir/build
-        make[1]: Entering directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-c0j1yu'
-        Building CXX object CMakeFiles/cmTC_46f7b.dir/OpenMPTryFlag.cpp.obj
-        D:\\whj\\apps\\tools\\w64devkit\\bin\\c++.exe   -fopenmp -v -o CMakeFiles\\cmTC_46f7b.dir\\OpenMPTryFlag.cpp.obj -c D:\\whj\\data\\GitFiles\\TinyRendererLearning\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c0j1yu\\OpenMPTryFlag.cpp
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/whj/apps/tools/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_4aeca/fast
+        make  -f CMakeFiles\\cmTC_4aeca.dir\\build.make CMakeFiles/cmTC_4aeca.dir/build
+        make[1]: Entering directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-ygovsh'
+        Building CXX object CMakeFiles/cmTC_4aeca.dir/OpenMPTryFlag.cpp.obj
+        D:\\whj\\apps\\tools\\w64devkit\\bin\\c++.exe   -fopenmp -v -o CMakeFiles\\cmTC_4aeca.dir\\OpenMPTryFlag.cpp.obj -c D:\\whj\\data\\GitFiles\\TinyRendererLearning\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ygovsh\\OpenMPTryFlag.cpp
         Using built-in specs.
         COLLECT_GCC=c++
         Target: x86_64-w64-mingw32
@@ -841,8 +841,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 12.1.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_46f7b.dir\\OpenMPTryFlag.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\\cmTC_46f7b.dir\\'
-         d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/cc1plus.exe -quiet -v -iprefix d:\\whj\\apps\\tools\\w64devkit\\bin\\../lib/gcc/x86_64-w64-mingw32/12.1.0/ -isysroot d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -D_MT -D_REENTRANT -U_REENTRANT D:\\whj\\data\\GitFiles\\TinyRendererLearning\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c0j1yu\\OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles\\cmTC_46f7b.dir\\ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -mthreads -version -fopenmp -o C:\\Users\\emili\\AppData\\Local\\Temp\\cciGtlYK.s
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_4aeca.dir\\OpenMPTryFlag.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\\cmTC_4aeca.dir\\'
+         d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/cc1plus.exe -quiet -v -iprefix d:\\whj\\apps\\tools\\w64devkit\\bin\\../lib/gcc/x86_64-w64-mingw32/12.1.0/ -isysroot d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -D_MT -D_REENTRANT -U_REENTRANT D:\\whj\\data\\GitFiles\\TinyRendererLearning\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ygovsh\\OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles\\cmTC_4aeca.dir\\ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -mthreads -version -fopenmp -o C:\\Users\\emili\\AppData\\Local\\Temp\\ccV4pLhc.s
         GNU C++17 (GCC) version 12.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 12.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -867,17 +867,17 @@ events:
         	compiled by GNU C version 12.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 16de64ce6bf559d811fbee3051001acc
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_46f7b.dir\\OpenMPTryFlag.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\\cmTC_46f7b.dir\\'
-         as -v -o CMakeFiles\\cmTC_46f7b.dir\\OpenMPTryFlag.cpp.obj C:\\Users\\emili\\AppData\\Local\\Temp\\cciGtlYK.s
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_4aeca.dir\\OpenMPTryFlag.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\\cmTC_4aeca.dir\\'
+         as -v -o CMakeFiles\\cmTC_4aeca.dir\\OpenMPTryFlag.cpp.obj C:\\Users\\emili\\AppData\\Local\\Temp\\ccV4pLhc.s
         GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39
         COMPILER_PATH=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/;d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/
         LIBRARY_PATH=d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_46f7b.dir\\OpenMPTryFlag.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\\cmTC_46f7b.dir\\OpenMPTryFlag.cpp.'
-        Linking CXX executable cmTC_46f7b.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_46f7b.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_46f7b.dir/objects.a
-        D:\\whj\\apps\\tools\\w64devkit\\bin\\ar.exe qc CMakeFiles\\cmTC_46f7b.dir/objects.a @CMakeFiles\\cmTC_46f7b.dir\\objects1.rsp
-        D:\\whj\\apps\\tools\\w64devkit\\bin\\c++.exe  -fopenmp -v -Wl,--whole-archive CMakeFiles\\cmTC_46f7b.dir/objects.a -Wl,--no-whole-archive -o cmTC_46f7b.exe -Wl,--out-implib,libcmTC_46f7b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_46f7b.dir\\linkLibs.rsp
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_4aeca.dir\\OpenMPTryFlag.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\\cmTC_4aeca.dir\\OpenMPTryFlag.cpp.'
+        Linking CXX executable cmTC_4aeca.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_4aeca.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_4aeca.dir/objects.a
+        D:\\whj\\apps\\tools\\w64devkit\\bin\\ar.exe qc CMakeFiles\\cmTC_4aeca.dir/objects.a @CMakeFiles\\cmTC_4aeca.dir\\objects1.rsp
+        D:\\whj\\apps\\tools\\w64devkit\\bin\\c++.exe  -fopenmp -v -Wl,--whole-archive CMakeFiles\\cmTC_4aeca.dir/objects.a -Wl,--no-whole-archive -o cmTC_4aeca.exe -Wl,--out-implib,libcmTC_4aeca.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_4aeca.dir\\linkLibs.rsp
         Using built-in specs.
         COLLECT_GCC=c++
         COLLECT_LTO_WRAPPER=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/lto-wrapper.exe
@@ -889,10 +889,10 @@ events:
         COMPILER_PATH=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/;d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/
         LIBRARY_PATH=d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/;d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../
         Reading specs from d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/libgomp.spec
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_46f7b.exe' '-v' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_46f7b.'
-         d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/collect2.exe -plugin d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/liblto_plugin.dll -plugin-opt=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\emili\\AppData\\Local\\Temp\\cc29LVEY.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_46f7b.exe d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0 -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../.. @C:\\Users\\emili\\AppData\\Local\\Temp\\ccAj6C6M -lgomp -lmingwthrd -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingwthrd -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtend.o
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_46f7b.exe' '-v' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_46f7b.'
-        make[1]: Leaving directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-c0j1yu'
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_4aeca.exe' '-v' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_4aeca.'
+         d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/collect2.exe -plugin d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/liblto_plugin.dll -plugin-opt=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\emili\\AppData\\Local\\Temp\\ccwHEHWg.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_4aeca.exe d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0 -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../.. @C:\\Users\\emili\\AppData\\Local\\Temp\\ccADWlQn -lgomp -lmingwthrd -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingwthrd -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_4aeca.exe' '-v' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_4aeca.'
+        make[1]: Leaving directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-ygovsh'
         
       exitCode: 0
   -
@@ -904,13 +904,13 @@ events:
     message: |
       Parsed CXX OpenMP implicit link information from above output:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-c0j1yu']
+        ignore line: [Change Dir: 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-ygovsh']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/whj/apps/tools/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_46f7b/fast]
-        ignore line: [make  -f CMakeFiles\\cmTC_46f7b.dir\\build.make CMakeFiles/cmTC_46f7b.dir/build]
-        ignore line: [make[1]: Entering directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-c0j1yu']
-        ignore line: [Building CXX object CMakeFiles/cmTC_46f7b.dir/OpenMPTryFlag.cpp.obj]
-        ignore line: [D:\\whj\\apps\\tools\\w64devkit\\bin\\c++.exe   -fopenmp -v -o CMakeFiles\\cmTC_46f7b.dir\\OpenMPTryFlag.cpp.obj -c D:\\whj\\data\\GitFiles\\TinyRendererLearning\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c0j1yu\\OpenMPTryFlag.cpp]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/whj/apps/tools/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_4aeca/fast]
+        ignore line: [make  -f CMakeFiles\\cmTC_4aeca.dir\\build.make CMakeFiles/cmTC_4aeca.dir/build]
+        ignore line: [make[1]: Entering directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-ygovsh']
+        ignore line: [Building CXX object CMakeFiles/cmTC_4aeca.dir/OpenMPTryFlag.cpp.obj]
+        ignore line: [D:\\whj\\apps\\tools\\w64devkit\\bin\\c++.exe   -fopenmp -v -o CMakeFiles\\cmTC_4aeca.dir\\OpenMPTryFlag.cpp.obj -c D:\\whj\\data\\GitFiles\\TinyRendererLearning\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ygovsh\\OpenMPTryFlag.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=c++]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -918,8 +918,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 12.1.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_46f7b.dir\\OpenMPTryFlag.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\\cmTC_46f7b.dir\\']
-        ignore line: [ d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/cc1plus.exe -quiet -v -iprefix d:\\whj\\apps\\tools\\w64devkit\\bin\\../lib/gcc/x86_64-w64-mingw32/12.1.0/ -isysroot d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -D_MT -D_REENTRANT -U_REENTRANT D:\\whj\\data\\GitFiles\\TinyRendererLearning\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c0j1yu\\OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles\\cmTC_46f7b.dir\\ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -mthreads -version -fopenmp -o C:\\Users\\emili\\AppData\\Local\\Temp\\cciGtlYK.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_4aeca.dir\\OpenMPTryFlag.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\\cmTC_4aeca.dir\\']
+        ignore line: [ d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/cc1plus.exe -quiet -v -iprefix d:\\whj\\apps\\tools\\w64devkit\\bin\\../lib/gcc/x86_64-w64-mingw32/12.1.0/ -isysroot d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -D_MT -D_REENTRANT -U_REENTRANT D:\\whj\\data\\GitFiles\\TinyRendererLearning\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ygovsh\\OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles\\cmTC_4aeca.dir\\ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -mthreads -version -fopenmp -o C:\\Users\\emili\\AppData\\Local\\Temp\\ccV4pLhc.s]
         ignore line: [GNU C++17 (GCC) version 12.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 12.1.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -944,8 +944,8 @@ events:
         ignore line: [	compiled by GNU C version 12.1.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 16de64ce6bf559d811fbee3051001acc]
-        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_46f7b.dir\\OpenMPTryFlag.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\\cmTC_46f7b.dir\\']
-        ignore line: [ as -v -o CMakeFiles\\cmTC_46f7b.dir\\OpenMPTryFlag.cpp.obj C:\\Users\\emili\\AppData\\Local\\Temp\\cciGtlYK.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_4aeca.dir\\OpenMPTryFlag.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\\cmTC_4aeca.dir\\']
+        ignore line: [ as -v -o CMakeFiles\\cmTC_4aeca.dir\\OpenMPTryFlag.cpp.obj C:\\Users\\emili\\AppData\\Local\\Temp\\ccV4pLhc.s]
         ignore line: [GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39]
         ignore line: [COMPILER_PATH=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/]
         ignore line: [d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/]
@@ -955,12 +955,12 @@ events:
         ignore line: [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib/]
         ignore line: [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_46f7b.dir\\OpenMPTryFlag.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\\cmTC_46f7b.dir\\OpenMPTryFlag.cpp.']
-        ignore line: [Linking CXX executable cmTC_46f7b.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_46f7b.dir\\link.txt --verbose=1]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_46f7b.dir/objects.a]
-        ignore line: [D:\\whj\\apps\\tools\\w64devkit\\bin\\ar.exe qc CMakeFiles\\cmTC_46f7b.dir/objects.a @CMakeFiles\\cmTC_46f7b.dir\\objects1.rsp]
-        ignore line: [D:\\whj\\apps\\tools\\w64devkit\\bin\\c++.exe  -fopenmp -v -Wl --whole-archive CMakeFiles\\cmTC_46f7b.dir/objects.a -Wl --no-whole-archive -o cmTC_46f7b.exe -Wl --out-implib libcmTC_46f7b.dll.a -Wl --major-image-version 0 --minor-image-version 0 @CMakeFiles\\cmTC_46f7b.dir\\linkLibs.rsp]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles\\cmTC_4aeca.dir\\OpenMPTryFlag.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles\\cmTC_4aeca.dir\\OpenMPTryFlag.cpp.']
+        ignore line: [Linking CXX executable cmTC_4aeca.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_4aeca.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_4aeca.dir/objects.a]
+        ignore line: [D:\\whj\\apps\\tools\\w64devkit\\bin\\ar.exe qc CMakeFiles\\cmTC_4aeca.dir/objects.a @CMakeFiles\\cmTC_4aeca.dir\\objects1.rsp]
+        ignore line: [D:\\whj\\apps\\tools\\w64devkit\\bin\\c++.exe  -fopenmp -v -Wl --whole-archive CMakeFiles\\cmTC_4aeca.dir/objects.a -Wl --no-whole-archive -o cmTC_4aeca.exe -Wl --out-implib libcmTC_4aeca.dll.a -Wl --major-image-version 0 --minor-image-version 0 @CMakeFiles\\cmTC_4aeca.dir\\linkLibs.rsp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=c++]
         ignore line: [COLLECT_LTO_WRAPPER=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/lto-wrapper.exe]
@@ -978,13 +978,13 @@ events:
         ignore line: [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../]
         ignore line: [Reading specs from d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/libgomp.spec]
-        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_46f7b.exe' '-v' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_46f7b.']
-        link line: [ d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/collect2.exe -plugin d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/liblto_plugin.dll -plugin-opt=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\emili\\AppData\\Local\\Temp\\cc29LVEY.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_46f7b.exe d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0 -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../.. @C:\\Users\\emili\\AppData\\Local\\Temp\\ccAj6C6M -lgomp -lmingwthrd -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingwthrd -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_4aeca.exe' '-v' '-mtune=generic' '-march=x86-64' '-mthreads' '-pthread' '-dumpdir' 'cmTC_4aeca.']
+        link line: [ d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/collect2.exe -plugin d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/liblto_plugin.dll -plugin-opt=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\emili\\AppData\\Local\\Temp\\ccwHEHWg.res -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingwthrd -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=d:\\whj\\apps\\tools\\w64devkit\\bin\\../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_4aeca.exe d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtbegin.o -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0 -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib -Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../.. @C:\\Users\\emili\\AppData\\Local\\Temp\\ccADWlQn -lgomp -lmingwthrd -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingwthrd -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/crtend.o]
           arg [d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=d:/whj/apps/tools/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/12.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\emili\\AppData\\Local\\Temp\\cc29LVEY.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\emili\\AppData\\Local\\Temp\\ccwHEHWg.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingwthrd] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -1009,14 +1009,14 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_46f7b.exe] ==> ignore
+          arg [cmTC_4aeca.exe] ==> ignore
           arg [-Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0] ==> dir [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0]
           arg [-Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc] ==> dir [d:/whj/apps/tools/w64devkit/bin/../lib/gcc]
           arg [-Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib/../lib]
           arg [-Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib] ==> dir [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib]
           arg [-Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/lib]
           arg [-Ld:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../..] ==> dir [d:/whj/apps/tools/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../..]
-          arg [@C:\\Users\\emili\\AppData\\Local\\Temp\\ccAj6C6M] ==> ignore
+          arg [@C:\\Users\\emili\\AppData\\Local\\Temp\\ccADWlQn] ==> ignore
           arg [-lgomp] ==> lib [gomp]
           arg [-lmingwthrd] ==> lib [mingwthrd]
           arg [-lmingw32] ==> lib [mingw32]
@@ -1059,27 +1059,27 @@ events:
       - "CMakeLists.txt:7 (find_package)"
     description: "Detecting C OpenMP version"
     directories:
-      source: "D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-90l8w2"
-      binary: "D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-90l8w2"
+      source: "D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-e0c6qm"
+      binary: "D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-e0c6qm"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
     buildResult:
       variable: "OpenMP_SPECTEST_C_"
       cached: true
       stdout: |
-        Change Dir: 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-90l8w2'
+        Change Dir: 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-e0c6qm'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/whj/apps/tools/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_2639e/fast
-        make  -f CMakeFiles\\cmTC_2639e.dir\\build.make CMakeFiles/cmTC_2639e.dir/build
-        make[1]: Entering directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-90l8w2'
-        Building C object CMakeFiles/cmTC_2639e.dir/OpenMPCheckVersion.c.obj
-        D:\\whj\\apps\\tools\\w64devkit\\bin\\cc.exe   -fopenmp -o CMakeFiles\\cmTC_2639e.dir\\OpenMPCheckVersion.c.obj -c D:\\whj\\data\\GitFiles\\TinyRendererLearning\\build\\CMakeFiles\\CMakeScratch\\TryCompile-90l8w2\\OpenMPCheckVersion.c
-        Linking C executable cmTC_2639e.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_2639e.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_2639e.dir/objects.a
-        D:\\whj\\apps\\tools\\w64devkit\\bin\\ar.exe qc CMakeFiles\\cmTC_2639e.dir/objects.a @CMakeFiles\\cmTC_2639e.dir\\objects1.rsp
-        D:\\whj\\apps\\tools\\w64devkit\\bin\\cc.exe  -fopenmp -Wl,--whole-archive CMakeFiles\\cmTC_2639e.dir/objects.a -Wl,--no-whole-archive -o cmTC_2639e.exe -Wl,--out-implib,libcmTC_2639e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_2639e.dir\\linkLibs.rsp
-        make[1]: Leaving directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-90l8w2'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/whj/apps/tools/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_a1d0b/fast
+        make  -f CMakeFiles\\cmTC_a1d0b.dir\\build.make CMakeFiles/cmTC_a1d0b.dir/build
+        make[1]: Entering directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-e0c6qm'
+        Building C object CMakeFiles/cmTC_a1d0b.dir/OpenMPCheckVersion.c.obj
+        D:\\whj\\apps\\tools\\w64devkit\\bin\\cc.exe   -fopenmp -o CMakeFiles\\cmTC_a1d0b.dir\\OpenMPCheckVersion.c.obj -c D:\\whj\\data\\GitFiles\\TinyRendererLearning\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e0c6qm\\OpenMPCheckVersion.c
+        Linking C executable cmTC_a1d0b.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a1d0b.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_a1d0b.dir/objects.a
+        D:\\whj\\apps\\tools\\w64devkit\\bin\\ar.exe qc CMakeFiles\\cmTC_a1d0b.dir/objects.a @CMakeFiles\\cmTC_a1d0b.dir\\objects1.rsp
+        D:\\whj\\apps\\tools\\w64devkit\\bin\\cc.exe  -fopenmp -Wl,--whole-archive CMakeFiles\\cmTC_a1d0b.dir/objects.a -Wl,--no-whole-archive -o cmTC_a1d0b.exe -Wl,--out-implib,libcmTC_a1d0b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_a1d0b.dir\\linkLibs.rsp
+        make[1]: Leaving directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-e0c6qm'
         
       exitCode: 0
   -
@@ -1090,27 +1090,27 @@ events:
       - "CMakeLists.txt:7 (find_package)"
     description: "Detecting CXX OpenMP version"
     directories:
-      source: "D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-ggmvea"
-      binary: "D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-ggmvea"
+      source: "D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-amwfze"
+      binary: "D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-amwfze"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
     buildResult:
       variable: "OpenMP_SPECTEST_CXX_"
       cached: true
       stdout: |
-        Change Dir: 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-ggmvea'
+        Change Dir: 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-amwfze'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/whj/apps/tools/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_47785/fast
-        make  -f CMakeFiles\\cmTC_47785.dir\\build.make CMakeFiles/cmTC_47785.dir/build
-        make[1]: Entering directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-ggmvea'
-        Building CXX object CMakeFiles/cmTC_47785.dir/OpenMPCheckVersion.cpp.obj
-        D:\\whj\\apps\\tools\\w64devkit\\bin\\c++.exe   -fopenmp -o CMakeFiles\\cmTC_47785.dir\\OpenMPCheckVersion.cpp.obj -c D:\\whj\\data\\GitFiles\\TinyRendererLearning\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ggmvea\\OpenMPCheckVersion.cpp
-        Linking CXX executable cmTC_47785.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_47785.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_47785.dir/objects.a
-        D:\\whj\\apps\\tools\\w64devkit\\bin\\ar.exe qc CMakeFiles\\cmTC_47785.dir/objects.a @CMakeFiles\\cmTC_47785.dir\\objects1.rsp
-        D:\\whj\\apps\\tools\\w64devkit\\bin\\c++.exe  -fopenmp -Wl,--whole-archive CMakeFiles\\cmTC_47785.dir/objects.a -Wl,--no-whole-archive -o cmTC_47785.exe -Wl,--out-implib,libcmTC_47785.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_47785.dir\\linkLibs.rsp
-        make[1]: Leaving directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-ggmvea'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/whj/apps/tools/w64devkit/bin/mingw32-make.exe -f Makefile cmTC_35bfd/fast
+        make  -f CMakeFiles\\cmTC_35bfd.dir\\build.make CMakeFiles/cmTC_35bfd.dir/build
+        make[1]: Entering directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-amwfze'
+        Building CXX object CMakeFiles/cmTC_35bfd.dir/OpenMPCheckVersion.cpp.obj
+        D:\\whj\\apps\\tools\\w64devkit\\bin\\c++.exe   -fopenmp -o CMakeFiles\\cmTC_35bfd.dir\\OpenMPCheckVersion.cpp.obj -c D:\\whj\\data\\GitFiles\\TinyRendererLearning\\build\\CMakeFiles\\CMakeScratch\\TryCompile-amwfze\\OpenMPCheckVersion.cpp
+        Linking CXX executable cmTC_35bfd.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_35bfd.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_35bfd.dir/objects.a
+        D:\\whj\\apps\\tools\\w64devkit\\bin\\ar.exe qc CMakeFiles\\cmTC_35bfd.dir/objects.a @CMakeFiles\\cmTC_35bfd.dir\\objects1.rsp
+        D:\\whj\\apps\\tools\\w64devkit\\bin\\c++.exe  -fopenmp -Wl,--whole-archive CMakeFiles\\cmTC_35bfd.dir/objects.a -Wl,--no-whole-archive -o cmTC_35bfd.exe -Wl,--out-implib,libcmTC_35bfd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_35bfd.dir\\linkLibs.rsp
+        make[1]: Leaving directory 'D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/CMakeScratch/TryCompile-amwfze'
         
       exitCode: 0
 ...

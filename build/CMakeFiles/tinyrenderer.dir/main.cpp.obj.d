@@ -82,14 +82,8 @@ CMakeFiles/tinyrenderer.dir/main.cpp.obj: \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\tr1\poly_hermite.tcc \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\tr1\poly_laguerre.tcc \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\tr1\riemann_zeta.tcc \
- D:\whj\data\GitFiles\TinyRendererLearning\tgaimage.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\cstdint \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\stdint.h \
- d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\stdint.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\stddef.h \
- d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\stddef.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\fstream \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\istream \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\iostream \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\ostream \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\ios \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\iosfwd \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\stringfwd.h \
@@ -104,9 +98,14 @@ CMakeFiles/tinyrenderer.dir/main.cpp.obj: \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\exception \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\exception_ptr.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\cxxabi_init_exception.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\stddef.h \
+ d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\stddef.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\typeinfo \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\nested_exception.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\char_traits.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\cstdint \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\stdint.h \
+ d:\whj\apps\tools\w64devkit\x86_64-w64-mingw32\include\stdint.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\localefwd.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\x86_64-w64-mingw32\bits\c++locale.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\clocale \
@@ -164,13 +163,14 @@ CMakeFiles/tinyrenderer.dir/main.cpp.obj: \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\x86_64-w64-mingw32\bits\ctype_inline.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\locale_facets.tcc \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\basic_ios.tcc \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\ostream \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\ostream.tcc \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\istream \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\istream.tcc \
+ D:\whj\data\GitFiles\TinyRendererLearning\tgaimage.h \
+ d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\fstream \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\codecvt.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\x86_64-w64-mingw32\bits\basic_file.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\x86_64-w64-mingw32\bits\c++io.h \
  d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\bits\fstream.tcc \
  D:\whj\data\GitFiles\TinyRendererLearning\model.h \
- D:\whj\data\GitFiles\TinyRendererLearning\geometry.h \
- d:\whj\apps\tools\w64devkit\lib\gcc\x86_64-w64-mingw32\12.1.0\include\c++\iostream
+ D:\whj\data\GitFiles\TinyRendererLearning\geometry.h
