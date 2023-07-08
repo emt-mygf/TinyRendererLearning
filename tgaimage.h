@@ -31,7 +31,7 @@ struct TGAImage {
 
     TGAImage() = default;
     TGAImage(const int w, const int h, const int bpp);
-    bool  read_tga_file(const std::string filename);
+    bool read_tga_file(const std::string filename);
     bool write_tga_file(const std::string filename, const bool vflip=true, const bool rle=true) const;
     void flip_horizontally();
     void flip_vertically();
@@ -40,7 +40,7 @@ struct TGAImage {
     int width()  const;
     int height() const;
 private:
-    bool   load_rle_data(std::ifstream &in);
+    bool load_rle_data(std::ifstream &in);
     bool unload_rle_data(std::ofstream &out) const;
 
     int w = 0;

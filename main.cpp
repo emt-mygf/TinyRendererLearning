@@ -130,65 +130,210 @@ void triangleWithZbuffer(Vec2i *pts, std::vector<std::vector<float>>& zbuffer, T
             Vec3f weight = getWeightInTriangle(pts, point);
             if(weight.x >= 0 && weight.y >= 0 && weight.z >= 0)
             {
-                // std::cout<<weight<<zArray<<std::endl;
                 float z = weight * zArray;
-                // std::cout<<z<<", "<<zbuffer[u][v]<<std::endl;
                 // 这里深度定义为z越大越好
                 if(zbuffer[u][v] < z)
                 {
                     zbuffer[u][v] = z;
                     image.set(u, v, color);
                 }
-                // else
-                // {
-                //     std::cout<<weight<<zArray<<z<<", "<<zbuffer[u][v]<<std::endl;
-                // }
+            }
+        }
+    }
+}
+
+void triangleWithNorm(Vec2i *pts, std::vector<std::vector<float>>& zbuffer, TGAImage &image, int radiance, Vec3f zArray, Vec3f* normArray, Vec3f lightDirection)
+{
+    // zbuffer为全局zbuffer
+    // 划定BoundingBox
+    int minX = INT_MAX;
+    int minY = INT_MAX;
+    int maxX = INT_MIN;
+    int maxY = INT_MIN;
+    for(int i = 0; i < 3; ++i)
+    {
+        minX = std::min(minX, pts[i].x);
+        minY = std::min(minY, pts[i].y);
+        maxX = std::max(maxX, pts[i].x);
+        maxY = std::max(maxY, pts[i].y);
+    }
+
+    for(int u = minX; u <= maxX; ++u)
+    {
+        for(int v = minY; v <= maxY; ++v)
+        {
+            Vec2i point{u, v};
+            Vec3f weight = getWeightInTriangle(pts, point);
+            if(weight.x >= 0 && weight.y >= 0 && weight.z >= 0)
+            {
+                float z = weight * zArray;
+                // 这里深度定义为z越大越好
+                if(zbuffer[u][v] < z)
+                {
+                    zbuffer[u][v] = z;
+                    Vec3f norm{weight * normArray[0], weight * normArray[1], weight * normArray[2]};
+                    norm.normalize();
+                    float intensity = std::abs(norm * lightDirection);
+                    uint8_t gray = intensity * radiance;
+                    image.set(u, v, TGAColor{gray, gray, gray, 255});
+                }
+            }
+        }
+    }
+}
+
+void triangleWithTexture(Vec2i *pts, std::vector<std::vector<float>>& zbuffer, TGAImage &image, float intensity, Vec3f zArray, Vec3f* textureArray, TGAImage& textureImage)
+{
+    // zbuffer为全局zbuffer
+    // 划定BoundingBox
+    int minX = INT_MAX;
+    int minY = INT_MAX;
+    int maxX = INT_MIN;
+    int maxY = INT_MIN;
+    for(int i = 0; i < 3; ++i)
+    {
+        minX = std::min(minX, pts[i].x);
+        minY = std::min(minY, pts[i].y);
+        maxX = std::max(maxX, pts[i].x);
+        maxY = std::max(maxY, pts[i].y);
+    }
+
+    for(int u = minX; u <= maxX; ++u)
+    {
+        for(int v = minY; v <= maxY; ++v)
+        {
+            Vec2i point{u, v};
+            Vec3f weight = getWeightInTriangle(pts, point);
+            if(weight.x >= 0 && weight.y >= 0 && weight.z >= 0)
+            {
+                float z = weight * zArray;
+                // 这里深度定义为z越大越好
+                if(zbuffer[u][v] < z)
+                {
+                    zbuffer[u][v] = z;
+                    Vec2f texture{weight * textureArray[0], weight * textureArray[1]};
+                    TGAColor textureColor = textureImage.get(static_cast<int>(texture.x * textureImage.width()), static_cast<int>(texture.y * textureImage.height()));
+                    // TGAColor textureColor{255, 255, 255, 255};
+                    TGAColor setColor{static_cast<uint8_t>(textureColor[0] * intensity), 
+                                        static_cast<uint8_t>(textureColor[1] * intensity),
+                                        static_cast<uint8_t>(textureColor[2] * intensity),
+                                        textureColor[3]};
+                    image.set(u, v, setColor);
+                }
+            }
+        }
+    }
+}
+
+void triangleWithNormTexture(Vec2i *pts, std::vector<std::vector<float>>& zbuffer, TGAImage &image, Vec3f zArray, Vec3f* normArray, Vec3f lightDirection, Vec3f* textureArray, TGAImage& textureImage)
+{
+    // zbuffer为全局zbuffer
+    // 划定BoundingBox
+    int minX = INT_MAX;
+    int minY = INT_MAX;
+    int maxX = INT_MIN;
+    int maxY = INT_MIN;
+    for(int i = 0; i < 3; ++i)
+    {
+        minX = std::min(minX, pts[i].x);
+        minY = std::min(minY, pts[i].y);
+        maxX = std::max(maxX, pts[i].x);
+        maxY = std::max(maxY, pts[i].y);
+    }
+
+    for(int u = minX; u <= maxX; ++u)
+    {
+        for(int v = minY; v <= maxY; ++v)
+        {
+            Vec2i point{u, v};
+            Vec3f weight = getWeightInTriangle(pts, point);
+            if(weight.x >= 0 && weight.y >= 0 && weight.z >= 0)
+            {
+                float z = weight * zArray;
+                // 这里深度定义为z越大越好
+                if(zbuffer[u][v] < z)
+                {
+                    zbuffer[u][v] = z;
+                    Vec3f norm{weight * normArray[0], weight * normArray[1], weight * normArray[2]};
+                    norm.normalize();
+                    float intensity = std::abs(norm * lightDirection);
+                    Vec2f texture{weight * textureArray[0], weight * textureArray[1]};
+                    TGAColor textureColor = textureImage.get(static_cast<int>(texture.x * textureImage.width()), static_cast<int>(texture.y * textureImage.height()));
+                    TGAColor setColor{static_cast<uint8_t>(textureColor[0] * intensity), 
+                                        static_cast<uint8_t>(textureColor[1] * intensity),
+                                        static_cast<uint8_t>(textureColor[2] * intensity),
+                                        textureColor[3]};
+                    // std::cout<<(int)(textureColor[0])<<", "<<(int)(setColor[0])<<std::endl;
+                    image.set(u, v, setColor);
+                }
             }
         }
     }
 }
 
 int main(int argc, char** argv) {
-    if (2==argc) {
+    if(2==argc) 
+    {
         model = new Model(argv[1]);
-    } else {
+    } 
+    else 
+    {
         model = new Model("../obj/african_head/african_head.obj");
     }
-    // std::cout<<"main start"<<std::endl;
+
+    TGAImage textureImage(width, height, TGAImage::RGB);
+    textureImage.read_tga_file("../obj/african_head/african_head_diffuse.tga");
+    textureImage.flip_vertically();
 
     TGAImage image(width, height, TGAImage::RGB);
-    // std::cout<<"zbuffer set start"<<std::endl;
     std::vector<std::vector<float>> zbuffer(width, std::vector<float> (height, maxZ));
-    // std::cout<<"zbuffer set finish"<<std::endl;
     
     Vec3f light_dir(0,0,-1);
-    for (int i=0; i<model->nfaces(); i++) {
+    for (int i=0; i<model->nfaces(); i++) 
+    {
         std::vector<int> face = model->face(i);
+        std::vector<int> faceTexture = model->faceTexture(i);
+        std::vector<int> faceNorm = model->faceNorm(i);
         Vec2i screenVerts[3];
         Vec3f verts[3];
-        for (int j=0; j<3; j++) {
+        Vec3f vertTextures[3];
+        Vec3f vertNorms[3];
+        for(int j=0; j<3; j++) 
+        {
             Vec3f v = model->vert(face[j]);
             verts[j] = v;
+            Vec3f vt = model->vertTexture(faceTexture[j]);
+            vertTextures[j] = vt;
+            Vec3f vn = model->vertNorm(faceNorm[j]);
+            vertNorms[j] = vn;
             // 投影到屏幕坐标系
             int x = (v.x+1.)*width/2.;
             int y = (-v.y+1.)*height/2.;
             screenVerts[j] = Vec2i{x, y};
         }
         Vec3f zArray{verts[0].z, verts[1].z, verts[2].z};
-        // std::cout<<zArray;
+        Vec3f textureArray[2]{{vertTextures[0].x, vertTextures[1].x, vertTextures[2].x}, 
+                            {vertTextures[0].y, vertTextures[1].y, vertTextures[2].y}};
+        Vec3f normArray[3]{{vertNorms[0].x, vertNorms[1].x, vertNorms[2].x}, 
+                            {vertNorms[0].y, vertNorms[1].y, vertNorms[2].y},
+                            {vertNorms[0].z, vertNorms[1].z, vertNorms[2].z}};
+        // triangleWithNorm(screenVerts, zbuffer, image, 255, zArray, normArray, light_dir);
+        triangleWithNormTexture(screenVerts, zbuffer, image, zArray, normArray, light_dir, textureArray, textureImage);
+
         // 世界坐标系：法线，求灰度
-        Vec3f n = (verts[2] - verts[0]) ^ (verts[1] - verts[0]);
-        n.normalize();
-        float intensity = n * light_dir;
-        uint8_t gray = intensity * 255;
-        if(intensity > 0)
-        {
-            // triangle(screenVerts, image, TGAColor{gray, gray, gray, 255});
-            triangleWithZbuffer(screenVerts, zbuffer, image, TGAColor{gray, gray, gray, 255}, zArray);
-        }
+        // Vec3f n = (verts[2] - verts[0]) ^ (verts[1] - verts[0]);
+        // n.normalize();
+        // float intensity = std::abs(n * light_dir);
+        // // uint8_t gray = intensity * 255;
+        // if(intensity > 0)
+        // {
+        //     // triangle(screenVerts, image, TGAColor{gray, gray, gray, 255});
+        //     // triangleWithZbuffer(screenVerts, zbuffer, image, TGAColor{gray, gray, gray, 255}, zArray);
+        //     // triangleWithTexture(screenVerts, zbuffer, image, intensity, zArray, textureArray, textureImage);
+        // }
     }
 
-    image.flip_vertically(); // i want to have the origin at the left bottom corner of the image
+    image.flip_vertically(); 
     image.write_tga_file("output.tga");
     delete model;
     return 0;
