@@ -10,9 +10,37 @@ const TGAColor red   = TGAColor{0, 0, 255, 255};
 Model* model = nullptr;
 const int width  = 800;
 const int height = 800;
+const int depth = 255;
 const float maxZ = -std::numeric_limits<float>::max();
 
 
+// 投影变换相关
+Vec3f m2v(Matrix m) {
+    return Vec3f(m[0][0] / m[3][0], m[1][0] / m[3][0], m[2][0] / m[3][0]);
+}
+
+Matrix v2m(Vec3f v) {
+    Matrix m(4, 1);
+    m[0][0] = v.x;
+    m[1][0] = v.y;
+    m[2][0] = v.z;
+    m[3][0] = 1.f;
+    return m;
+}
+
+Matrix viewport(int x, int y, int w, int h) {
+    Matrix m = Matrix::identity(4);
+    m[0][3] = x + w / 2.f;
+    m[1][3] = y + h / 2.f;
+    m[2][3] = depth / 2.f;
+
+    m[0][0] = w / 2.f;
+    m[1][1] = h / 2.f;
+    m[2][2] = depth / 2.f;
+    return m;
+}
+
+// 光栅化相关
 void line(int x0, int y0, int x1, int y1, TGAImage &image, TGAColor color)
 {
     bool bFlip = false; 
@@ -121,6 +149,12 @@ void triangleWithZbuffer(Vec2i *pts, std::vector<std::vector<float>>& zbuffer, T
         maxX = std::max(maxX, pts[i].x);
         maxY = std::max(maxY, pts[i].y);
     }
+    int m = zbuffer.size() - 1;
+    int n = zbuffer[0].size() - 1;
+    minX = std::max(0, minX);
+    minY = std::max(0, minY);
+    maxX = std::min(m, maxX);
+    maxY = std::min(n, maxY);
 
     for(int u = minX; u <= maxX; ++u)
     {
@@ -157,6 +191,12 @@ void triangleWithNorm(Vec2i *pts, std::vector<std::vector<float>>& zbuffer, TGAI
         maxX = std::max(maxX, pts[i].x);
         maxY = std::max(maxY, pts[i].y);
     }
+    int m = zbuffer.size() - 1;
+    int n = zbuffer[0].size() - 1;
+    minX = std::max(0, minX);
+    minY = std::max(0, minY);
+    maxX = std::min(m, maxX);
+    maxY = std::min(n, maxY);
 
     for(int u = minX; u <= maxX; ++u)
     {
@@ -197,6 +237,12 @@ void triangleWithTexture(Vec2i *pts, std::vector<std::vector<float>>& zbuffer, T
         maxX = std::max(maxX, pts[i].x);
         maxY = std::max(maxY, pts[i].y);
     }
+    int m = zbuffer.size() - 1;
+    int n = zbuffer[0].size() - 1;
+    minX = std::max(0, minX);
+    minY = std::max(0, minY);
+    maxX = std::min(m, maxX);
+    maxY = std::min(n, maxY);
 
     for(int u = minX; u <= maxX; ++u)
     {
@@ -240,6 +286,12 @@ void triangleWithNormTexture(Vec2i *pts, std::vector<std::vector<float>>& zbuffe
         maxX = std::max(maxX, pts[i].x);
         maxY = std::max(maxY, pts[i].y);
     }
+    int m = zbuffer.size() - 1;
+    int n = zbuffer[0].size() - 1;
+    minX = std::max(0, minX);
+    minY = std::max(0, minY);
+    maxX = std::min(m, maxX);
+    maxY = std::min(n, maxY);
 
     for(int u = minX; u <= maxX; ++u)
     {
@@ -278,17 +330,26 @@ int main(int argc, char** argv) {
     } 
     else 
     {
-        model = new Model("../obj/african_head/african_head.obj");
+        model = new Model("../../../obj/african_head/african_head.obj");
     }
 
     TGAImage textureImage(width, height, TGAImage::RGB);
-    textureImage.read_tga_file("../obj/african_head/african_head_diffuse.tga");
+    textureImage.read_tga_file("../../../obj/african_head/african_head_diffuse.tga");
     textureImage.flip_vertically();
 
     TGAImage image(width, height, TGAImage::RGB);
     std::vector<std::vector<float>> zbuffer(width, std::vector<float> (height, maxZ));
     
-    Vec3f light_dir(0,0,-1);
+    Vec3f light_dir(0, 0, -1);
+    Vec3f camera(0, 0, 3);
+
+    // 生成投影变换
+    Matrix projection = Matrix::identity(4);
+    projection[3][2] = -1.f / camera.z;
+    Matrix cameraViewport = viewport(width / 8, height / 8, width * 3 / 4, height * 3 / 4);
+    //Matrix cameraViewport = viewport(0, 0, width, height);
+    Matrix transform = cameraViewport * projection;
+
     for (int i=0; i<model->nfaces(); i++) 
     {
         std::vector<int> face = model->face(i);
@@ -307,9 +368,14 @@ int main(int argc, char** argv) {
             Vec3f vn = model->vertNorm(faceNorm[j]);
             vertNorms[j] = vn;
             // 投影到屏幕坐标系
-            int x = (v.x+1.)*width/2.;
+            // Old: 正交投影
+            /*int x = (v.x+1.)*width/2.;
             int y = (-v.y+1.)*height/2.;
-            screenVerts[j] = Vec2i{x, y};
+            screenVerts[j] = Vec2i{x, y};*/
+            // New: 透视投影
+            Vec3f transformVert = m2v(transform * v2m(v));
+            screenVerts[j] = Vec2i{ static_cast<int>(transformVert.x), height - 1 - static_cast<int>(transformVert.y) };
+
         }
         Vec3f zArray{verts[0].z, verts[1].z, verts[2].z};
         Vec3f textureArray[2]{{vertTextures[0].x, vertTextures[1].x, vertTextures[2].x}, 

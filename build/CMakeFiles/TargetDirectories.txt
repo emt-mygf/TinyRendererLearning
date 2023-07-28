@@ -1,3 +1,0 @@
-D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/tinyrenderer.dir
-D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/edit_cache.dir
-D:/whj/data/GitFiles/TinyRendererLearning/build/CMakeFiles/rebuild_cache.dir

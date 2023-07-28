@@ -20,21 +20,21 @@ faces_(), faceNorms_(), faceTextures_() {
         {
             iss >> trash;
             Vec3f v;
-            for (int i=0; i<3; i++) iss >> v.raw[i];
+            for (int i=0; i<3; i++) iss >> v[i];
             verts_.push_back(v);
         }
         else if(!line.compare(0, 3, "vn ")) 
         {
             iss >> trash >> trash;
             Vec3f vn;
-            for (int i=0; i<3; i++) iss >> vn.raw[i];
+            for (int i=0; i<3; i++) iss >> vn[i];
             vertNorms_.push_back(vn);
         }
         else if(!line.compare(0, 3, "vt ")) 
         {
             iss >> trash >> trash;
             Vec3f vt;
-            for (int i=0; i<3; i++) iss >> vt.raw[i];
+            for (int i=0; i<3; i++) iss >> vt[i];
             vertTextures_.push_back(vt);
         }
         else if(!line.compare(0, 2, "f ")) 
