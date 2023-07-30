@@ -120,7 +120,7 @@ void triangle(Vec2i *pts, TGAImage &image, TGAColor color)
 
 Vec3f getWeightInTriangle(Vec2i *pts, Vec2i point)
 {
-    // 不准确，实际上应该用投影逆变换在世界坐标系下求
+    // 对于透视投影的结果不准确
     Vec3i vec1{pts[1].x - pts[0].x, pts[2].x - pts[0].x, point.x - pts[0].x};
     Vec3i vec2{pts[1].y - pts[0].y, pts[2].y - pts[0].y, point.y - pts[0].y};
 
@@ -131,6 +131,34 @@ Vec3f getWeightInTriangle(Vec2i *pts, Vec2i point)
     Weight = Weight * (1.0 / (-test.z));
 
     if(Weight.x < 0 || Weight.y < 0 || Weight.z < 0) return Vec3f{-1.0, -1.0, -1.0};
+    return Weight;
+}
+
+Vec3f getWeightInTrianglePerspective(Vec3f* pts, Vec2i point, Matrix viewport, Vec3f cameraLoc) // pts透视投影前坐标
+{
+    // 像素点逆向求权重
+
+    // 获取视口变换前，透视投影后的坐标
+    float x = (static_cast<float>(point.x) - viewport[0][3]) / viewport[0][0];
+    float y = (static_cast<float>(height - 1 - point.y) - viewport[1][3]) / viewport[1][1]; // 纵向翻转过，需要翻转回来
+
+    // (x, y, 0)与cameraLoc连线，求连线与透视投影前的三角形交点对应的权重（公式推导结果）
+    float param0 = (cameraLoc.x - x) * (pts[1].z - pts[0].z) - cameraLoc.z * (pts[1].x - pts[0].x);
+    float param1 = (cameraLoc.x - x) * (pts[2].z - pts[0].z) - cameraLoc.z * (pts[2].x - pts[0].x);
+    float param2 = (cameraLoc.x - x) * pts[0].z - cameraLoc.z * (pts[0].x - x);
+    float param3 = (cameraLoc.y - y) * (pts[1].z - pts[0].z) - cameraLoc.z * (pts[1].y - pts[0].y);
+    float param4 = (cameraLoc.y - y) * (pts[2].z - pts[0].z) - cameraLoc.z * (pts[2].y - pts[0].y);
+    float param5 = (cameraLoc.y - y) * pts[0].z - cameraLoc.z * (pts[0].y - y);
+    Vec3f vec1{param0, param1, param2};
+    Vec3f vec2{param3, param4, param5};
+
+    Vec3f test = vec1 ^ vec2;
+    if (test.z < 0.0) test = test * (-1.0);
+
+    Vec3f Weight{test.z - test.x - test.y, test.x, test.y};
+    Weight = Weight * (1.0 / test.z);
+
+    if (Weight.x < 0 || Weight.y < 0 || Weight.z < 0) return Vec3f{ -1.0, -1.0, -1.0 };
     return Weight;
 }
 
@@ -323,6 +351,61 @@ void triangleWithNormTexture(Vec2i *pts, std::vector<std::vector<float>>& zbuffe
     }
 }
 
+void triangleWithNormTexturePerspective(Vec2i* pts, Vec3f* verts, Matrix viewport, Vec3f cameraLoc, std::vector<std::vector<float>>& zbuffer, TGAImage& image, Vec3f zArray, Vec3f* normArray, Vec3f lightDirection, Vec3f* textureArray, TGAImage& textureImage)
+{
+    // 对透视投影的结果，需要调整权重的计算
+
+    // zbuffer为全局zbuffer
+    // 划定BoundingBox
+    int minX = INT_MAX;
+    int minY = INT_MAX;
+    int maxX = INT_MIN;
+    int maxY = INT_MIN;
+    for (int i = 0; i < 3; ++i)
+    {
+        minX = std::min(minX, pts[i].x);
+        minY = std::min(minY, pts[i].y);
+        maxX = std::max(maxX, pts[i].x);
+        maxY = std::max(maxY, pts[i].y);
+    }
+    int m = zbuffer.size() - 1;
+    int n = zbuffer[0].size() - 1;
+    minX = std::max(0, minX);
+    minY = std::max(0, minY);
+    maxX = std::min(m, maxX);
+    maxY = std::min(n, maxY);
+
+    for (int u = minX; u <= maxX; ++u)
+    {
+        for (int v = minY; v <= maxY; ++v)
+        {
+            Vec2i point{ u, v };
+            Vec3f weight = getWeightInTrianglePerspective(verts, point, viewport, cameraLoc);
+            // Vec3f debugWeight = getWeightInTriangle(pts, point);
+            if (weight.x >= 0 && weight.y >= 0 && weight.z >= 0)
+            {
+                float z = weight * zArray;
+                // 这里深度定义为z越大越好
+                if (zbuffer[u][v] < z)
+                {
+                    zbuffer[u][v] = z;
+                    Vec3f norm{ weight * normArray[0], weight * normArray[1], weight * normArray[2] };
+                    norm.normalize();
+                    float intensity = std::abs(norm * lightDirection);
+                    Vec2f texture{ weight * textureArray[0], weight * textureArray[1] };
+                    TGAColor textureColor = textureImage.get(static_cast<int>(texture.x * textureImage.width()), static_cast<int>(texture.y * textureImage.height()));
+                    TGAColor setColor{ static_cast<uint8_t>(textureColor[0] * intensity),
+                                        static_cast<uint8_t>(textureColor[1] * intensity),
+                                        static_cast<uint8_t>(textureColor[2] * intensity),
+                                        textureColor[3] };
+                    // std::cout<<(int)(textureColor[0])<<", "<<(int)(setColor[0])<<std::endl;
+                    image.set(u, v, setColor);
+                }
+            }
+        }
+    }
+}
+
 int main(int argc, char** argv) {
     if(2==argc) 
     {
@@ -384,7 +467,8 @@ int main(int argc, char** argv) {
                             {vertNorms[0].y, vertNorms[1].y, vertNorms[2].y},
                             {vertNorms[0].z, vertNorms[1].z, vertNorms[2].z}};
         // triangleWithNorm(screenVerts, zbuffer, image, 255, zArray, normArray, light_dir);
-        triangleWithNormTexture(screenVerts, zbuffer, image, zArray, normArray, light_dir, textureArray, textureImage);
+        // triangleWithNormTexture(screenVerts, zbuffer, image, zArray, normArray, light_dir, textureArray, textureImage);
+        triangleWithNormTexturePerspective(screenVerts, verts, cameraViewport, camera, zbuffer, image, zArray, normArray, light_dir, textureArray, textureImage);
 
         // 世界坐标系：法线，求灰度
         // Vec3f n = (verts[2] - verts[0]) ^ (verts[1] - verts[0]);
