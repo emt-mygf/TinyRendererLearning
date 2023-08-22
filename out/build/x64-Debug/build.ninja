@@ -70,6 +70,13 @@ build CMakeFiles\tinyrenderer.dir\model.cpp.obj: CXX_COMPILER__tinyrenderer_unsc
   TARGET_COMPILE_PDB = CMakeFiles\tinyrenderer.dir\
   TARGET_PDB = tinyrenderer.pdb
 
+build CMakeFiles\tinyrenderer.dir\mygl.cpp.obj: CXX_COMPILER__tinyrenderer_unscanned_Debug D$:\whj\data\GitFiles\TinyRendererLearning\mygl.cpp || cmake_object_order_depends_target_tinyrenderer
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
+  OBJECT_DIR = CMakeFiles\tinyrenderer.dir
+  OBJECT_FILE_DIR = CMakeFiles\tinyrenderer.dir
+  TARGET_COMPILE_PDB = CMakeFiles\tinyrenderer.dir\
+  TARGET_PDB = tinyrenderer.pdb
+
 build CMakeFiles\tinyrenderer.dir\tgaimage.cpp.obj: CXX_COMPILER__tinyrenderer_unscanned_Debug D$:\whj\data\GitFiles\TinyRendererLearning\tgaimage.cpp || cmake_object_order_depends_target_tinyrenderer
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
   OBJECT_DIR = CMakeFiles\tinyrenderer.dir
@@ -85,7 +92,7 @@ build CMakeFiles\tinyrenderer.dir\tgaimage.cpp.obj: CXX_COMPILER__tinyrenderer_u
 #############################################
 # Link the executable tinyrenderer.exe
 
-build tinyrenderer.exe: CXX_EXECUTABLE_LINKER__tinyrenderer_Debug CMakeFiles\tinyrenderer.dir\geometry.cpp.obj CMakeFiles\tinyrenderer.dir\main.cpp.obj CMakeFiles\tinyrenderer.dir\model.cpp.obj CMakeFiles\tinyrenderer.dir\tgaimage.cpp.obj
+build tinyrenderer.exe: CXX_EXECUTABLE_LINKER__tinyrenderer_Debug CMakeFiles\tinyrenderer.dir\geometry.cpp.obj CMakeFiles\tinyrenderer.dir\main.cpp.obj CMakeFiles\tinyrenderer.dir\model.cpp.obj CMakeFiles\tinyrenderer.dir\mygl.cpp.obj CMakeFiles\tinyrenderer.dir\tgaimage.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc -openmp /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64  /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
