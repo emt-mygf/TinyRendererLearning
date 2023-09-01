@@ -6,7 +6,6 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.1"
@@ -39,7 +38,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "tinyrenderer::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-tinyrenderer-Debug-12a2d4e809bc809400ff.json",
+					"jsonFile" : "target-tinyrenderer-Debug-d03fee9c8a377f32aea4.json",
 					"name" : "tinyrenderer",
 					"projectIndex" : 0
 				}
@@ -49,12 +48,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/whj/data/GitFiles/TinyRendererLearning/out/build/x64-Debug",
-		"source" : "D:/whj/data/GitFiles/TinyRendererLearning"
+		"build" : "D:/Git_Files/TinyRendererLearning/out/build/x64-Debug",
+		"source" : "D:/Git_Files/TinyRendererLearning"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 5
+		"minor" : 2
 	}
 }

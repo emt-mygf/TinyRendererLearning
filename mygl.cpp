@@ -72,12 +72,26 @@ void triangle(Vec4f* pts, ShaderBase& shader, TGAImage& image, TGAImage& zbuffer
         for (P.y = bboxmin.y; P.y <= bboxmax.y; P.y++) {
             Vec2f points[3] = {proj<2>(pts[0] / pts[0][3]), proj<2>(pts[1] / pts[1][3]), proj<2>(pts[2] / pts[2][3])};
             Vec3f weight = getWeightInTriangle(points, proj<2>(P));
-            float z = pts[0][2] * weight.x + pts[1][2] * weight.y + pts[2][2] * weight.z;
-            float w = pts[0][3] * weight.x + pts[1][3] * weight.y + pts[2][3] * weight.z;
-            int fragDepth = std::max(0, std::min(255, int(z / w + .5)));
+
+            // 透视矫正
+            Vec3f weightRevised;
+            for (int i = 0; i < 3; ++i)
+            {
+                //求α，β，γ,只需要除以pts第四个分量即可
+                weightRevised[i] = weight[i] / pts[i][3];
+            }
+            float zNorm = 1.f / (weightRevised[0] + weightRevised[1] + weightRevised[2]);
+            for (int i = 0; i < 3; ++i)
+            {
+                //求正确透视下插值的系数
+                weightRevised[i] *= zNorm;
+            }
+
+            float zPoint = (pts[0][2] / pts[0][3]) * weightRevised.x + (pts[1][2] / pts[1][3]) * weightRevised.y + (pts[2][2] / pts[2][3]) * weightRevised.z;
+            int fragDepth = std::max(0, std::min(255, int(zPoint + .5)));
             // zbuffer
-            if(weight.x < 0 || weight.y < 0 || weight.z<0 || zbuffer.get(P.x, P.y)[0] > fragDepth) continue;
-            bool discard = shader.fragmentShader(weight, color);
+            if(weight.x < 0 || weight.y < 0 || weight.z < 0 || zbuffer.get(P.x, P.y)[0] > fragDepth) continue;
+            bool discard = shader.fragmentShader(weightRevised, color);
             if (!discard) {
                 zbuffer.set(P.x, P.y, TGAColor(fragDepth));
                 image.set(P.x, P.y, color);
@@ -87,7 +101,7 @@ void triangle(Vec4f* pts, ShaderBase& shader, TGAImage& image, TGAImage& zbuffer
 }
 
 //// 光栅化相关
-//// 早期代码, api变化失效
+//// 早期代码, 已失效
 //void line(int x0, int y0, int x1, int y1, TGAImage& image, TGAColor color)
 //{
 //    bool bFlip = false;

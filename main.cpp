@@ -18,19 +18,56 @@ Vec3f up(0, 1, 0);
 struct MyShader : public ShaderBase
 {
     Vec3f varyingIntensity; // written by vertex shader, read by fragment shader
+    mat<2, 3, float> varyingUV;
+    mat<3, 3, float> varyingNorm;
+    mat<4, 3, float> varyingTri;
+    mat<3, 3, float> varyingTriNorm;
+    Matrix MVP;
+    Matrix MVP_INVERSE;
 
     virtual Vec4f vertexShader(int iface, int nthvert) 
     {
         Vec4f glVertex = embed<4>(model->vert(iface, nthvert)); // read the vertex from .obj file
         glVertex = Viewport * Projection * ModelView * glVertex;     // transform it to screen coordinates
         varyingIntensity[nthvert] = std::max(0.f, model->normal(iface, nthvert) * lightDir); // get diffuse lighting intensity
+        varyingUV.set_col(nthvert, model->uv(iface, nthvert));
+        varyingNorm.set_col(nthvert, proj<3>(MVP_INVERSE * embed<4>(model->normal(iface, nthvert), 0.f)));
+        varyingTri.set_col(nthvert, glVertex);
+        varyingTriNorm.set_col(nthvert, proj<3>(glVertex / glVertex[3]));
         return glVertex;
     }
 
     virtual bool fragmentShader(Vec3f bar, TGAColor& color) {
         float intensity = varyingIntensity * bar;   // interpolate intensity for the current pixel
-        color = TGAColor(255, 255, 255) * intensity; // well duh
-        return false;                              // no, we do not discard this pixel
+        Vec2f uv = varyingUV * bar;
+
+        //// 层次感，只有6个值
+        //if (intensity > .90) intensity = 1;
+        //else if (intensity > .70) intensity = .80;
+        //else if (intensity > .50) intensity = .60;
+        //else if (intensity > .30) intensity = .40;
+        //else if (intensity > .10) intensity = .20;
+        //else intensity = 0;
+
+        // 应用法线贴图（tangent法线贴图）（顶点法线插值计算像素点法线->计算像素点光强，过去为直接顶点光强插值计算像素点光强）
+        Vec3f normal = (varyingNorm * bar).normalize();
+        mat<3, 3, float> A;
+        A[0] = varyingTriNorm.col(1) - varyingTriNorm.col(0);
+        A[1] = varyingTriNorm.col(2) - varyingTriNorm.col(0);
+        A[2] = normal;
+        mat<3, 3, float> AI = A.invert();
+        Vec3f i = AI * Vec3f(varyingUV[0][1] - varyingUV[0][0], varyingUV[0][2] - varyingUV[0][0], 0);
+        Vec3f j = AI * Vec3f(varyingUV[1][1] - varyingUV[1][0], varyingUV[1][2] - varyingUV[1][0], 0);
+        mat<3, 3, float> B;
+        B.set_col(0, i.normalize());
+        B.set_col(1, j.normalize());
+        B.set_col(2, normal);
+        Vec3f newNormal = B * model->normal(uv);
+        float newIntensity = std::max(0.f, newNormal * lightDir);
+
+        // color = model->diffuse(uv) * intensity; 
+        color = model->diffuse(uv) * newIntensity;
+        return false;
     }
 };
 
@@ -53,6 +90,8 @@ int main(int argc, char** argv) {
     TGAImage zbuffer(width, height, TGAImage::GRAYSCALE);
 
     MyShader shader;
+    shader.MVP = Projection * ModelView;
+    shader.MVP_INVERSE = (Projection * ModelView).invert_transpose();
     for (int i = 0; i < model->nfaces(); i++) {
         Vec4f screenCoords[3];
         for (int j = 0; j < 3; j++) {
