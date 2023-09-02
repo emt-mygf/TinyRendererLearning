@@ -88,7 +88,7 @@ void triangle(Vec4f* pts, ShaderBase& shader, TGAImage& image, TGAImage& zbuffer
             }
 
             float zPoint = (pts[0][2] / pts[0][3]) * weightRevised.x + (pts[1][2] / pts[1][3]) * weightRevised.y + (pts[2][2] / pts[2][3]) * weightRevised.z;
-            int fragDepth = std::max(0, std::min(255, int(zPoint + .5)));
+            int fragDepth = std::max(0, std::min(255, int((zPoint / depth) * 255.f)));
             // zbuffer
             if(weight.x < 0 || weight.y < 0 || weight.z < 0 || zbuffer.get(P.x, P.y)[0] > fragDepth) continue;
             bool discard = shader.fragmentShader(weightRevised, color);
@@ -96,6 +96,34 @@ void triangle(Vec4f* pts, ShaderBase& shader, TGAImage& image, TGAImage& zbuffer
                 zbuffer.set(P.x, P.y, TGAColor(fragDepth));
                 image.set(P.x, P.y, color);
             }
+        }
+    }
+}
+
+void triangleShadow(Vec4f* pts, ShaderBase& shader, TGAImage& zbuffer) {
+    // 三角形的包围盒
+    Vec2f bboxmin(std::numeric_limits<float>::max(), std::numeric_limits<float>::max());
+    Vec2f bboxmax(-std::numeric_limits<float>::max(), -std::numeric_limits<float>::max());
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 2; j++) {
+            bboxmin[j] = std::min(bboxmin[j], pts[i][j] / pts[i][3]);
+            bboxmax[j] = std::max(bboxmax[j], pts[i][j] / pts[i][3]);
+        }
+    }
+    Vec2i P;
+    TGAColor color;
+    for (P.x = bboxmin.x; P.x <= bboxmax.x; P.x++) {
+        for (P.y = bboxmin.y; P.y <= bboxmax.y; P.y++) {
+            Vec2f points[3] = { proj<2>(pts[0] / pts[0][3]), proj<2>(pts[1] / pts[1][3]), proj<2>(pts[2] / pts[2][3]) };
+            Vec3f weight = getWeightInTriangle(points, proj<2>(P));
+
+            // 假设平行光源，不需要透视矫正
+            float zPoint = (pts[0][2] / pts[0][3]) * weight.x + (pts[1][2] / pts[1][3]) * weight.y + (pts[2][2] / pts[2][3]) * weight.z;
+            int fragDepth = std::max(0, std::min(255, int((zPoint / depth) * 255.f)));
+            // zbuffer
+            if (weight.x < 0 || weight.y < 0 || weight.z < 0 || zbuffer.get(P.x, P.y)[0] > fragDepth) continue;
+            bool discard = shader.fragmentShader(weight, color);
+            if (!discard) zbuffer.set(P.x, P.y, TGAColor(fragDepth));
         }
     }
 }

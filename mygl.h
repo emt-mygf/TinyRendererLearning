@@ -11,6 +11,7 @@ extern Matrix Projection;
 void viewport(int x, int y, int w, int h);
 void projection(float coeff = 0.f); // coeff = -1/c
 void lookat(Vec3f eye, Vec3f center, Vec3f up);
+const float depth = 2000.f;
 
 struct ShaderBase {
     virtual ~ShaderBase();
@@ -19,5 +20,7 @@ struct ShaderBase {
 };
 
 void triangle(Vec4f* pts, ShaderBase& shader, TGAImage& image, TGAImage& zbuffer);
+
+void triangleShadow(Vec4f* pts, ShaderBase& shader, TGAImage& zbuffer);
 
 #endif //__MYGL_H__
