@@ -78,7 +78,7 @@ struct MyShader : public ShaderBase
         Vec3f reflect = (newNormal * (newNormal * lightDir * 2.f) - lightDir).normalize();   // reflected light, in world space
         float spec = pow(std::max(reflect.z, 0.0f), model->specular(uv));
         TGAColor c = model->diffuse(uv);
-        for (int i = 0; i < 3; i++) color[i] = std::min<float>(1 + c[i]  * (1.2 * shadow * newIntensity + .6 * spec), 255);
+        for (int i = 0; i < 3; i++) color[i] = std::min<float>(20 + c[i]  * (1.2 * shadow * newIntensity + .6 * spec), 255);
 
         // color = model->diffuse(uv) * intensity; 
         // color = model->diffuse(uv) * newIntensity;

@@ -19,3 +19,10 @@
 4	592	7153824312719158	CMakeFiles/tinyrenderer.dir/main.cpp.obj	931d5bc32ff00fa1
 9	675	7153824313551467	CMakeFiles/tinyrenderer.dir/model.cpp.obj	276cc33c87e61c77
 675	816	7153824314713893	tinyrenderer.exe	73a9201dc8734932
+0	9	0	clean	9992afb1f91dc381
+1	771	7154390800091835	CMakeFiles/tinyrenderer.dir/geometry.cpp.obj	721f55a012ac9d1b
+14	793	7154390800282169	CMakeFiles/tinyrenderer.dir/mygl.cpp.obj	ba52dab16384b286
+8	801	7154390800387311	CMakeFiles/tinyrenderer.dir/tgaimage.cpp.obj	159b381228504721
+5	833	7154390800712784	CMakeFiles/tinyrenderer.dir/main.cpp.obj	931d5bc32ff00fa1
+11	909	7154390801443739	CMakeFiles/tinyrenderer.dir/model.cpp.obj	276cc33c87e61c77
+909	1089	7154390802995199	tinyrenderer.exe	73a9201dc8734932
